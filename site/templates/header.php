@@ -1,3 +1,13 @@
+<?php 
+    $url = explode("/", $_SERVER['REQUEST_URI']);
+       $resultado = in_array('autores', $url);
+    if (!$resultado) {
+        $cssPath = "css/";
+    } else {
+        $cssPath = "../../";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,15 +15,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="<?php echo !$resultado ? "" : "../../" ;?>img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="autores/andre/css/style.css">
-    <link rel="stylesheet" href="autores/caio/css/style.css">
-    <link rel="stylesheet" href="autores/carol/css/style.css">
-    <link rel="stylesheet" href="autores/henrique/css/style.css">
-    <link rel="stylesheet" href="autores/vinicius/css/style.css">
-    <link rel="stylesheet" href="autores/wagner/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? $cssPath : $cssPath ."css/" ;?>style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/caio/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/carol/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/henrique/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/vinicius/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/wagner/css/style.css">
     <title>Quadrinhos</title>
 </head>
 
@@ -28,10 +38,10 @@
                     <div class="bar3"></div>
                 </div>
             </button>
-        <div class="row justify-content-center">
-            <a class="navbar-brand" href="index.php">
-                <img src="img/logo.png" alt="">
-            </a>
+            <div class="row justify-content-center">
+                <a class="navbar-brand" href="<?php echo !$resultado ? "" : "../../" ;?>index.php">
+                    <img src="<?php echo !$resultado ? "" : "../../" ;?>img/logo.png" alt="">
+                </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav ml-auto">
@@ -42,52 +52,52 @@
                                 <div class="row">
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
                                         <a href="#">
-                                            <img class="img-fluid" src="img/bg_menu.jpg">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_menu.jpg">
                                             <div>Dark Horse</div>
                                         </a>
 
                                     </div>
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
-                                        <a href="#">
-                                            <img class="img-fluid" src="img/bg_menu.jpg">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/vinicius/index.php">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_marvel.jpg">
                                             <div>Marvel</div>
                                         </a>
 
                                     </div>
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
                                         <a href="#">
-                                            <img class="img-fluid" src="img/bg_menu.jpg">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_dc.jpg">
                                             <div>DC</div>
                                         </a>
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
                                         <a href="#">
-                                            <img class="img-fluid" src="img/bg_menu.jpg">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_lgbt.jpg">
                                             <div>LGBTQ+</div>
                                         </a>
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center">
                                         <a href="#">
-                                            <img class="img-fluid" src="img/bg_menu.jpg">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_manga.jpg">
                                             <div>Mangá</div>
                                         </a>
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center">
                                         <a href="#">
-                                            <img class="img-fluid" src="img/bg_menu.jpg">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_anti.jpg">
                                             <div>Anti-Heróis</div>
                                         </a>
                                     </div>
                                 </div>
                             </li>
 
-                            
+
                         </ul>
-                        <li class="nav-item"><a href="contato.php" class="nav-link">Contato</a></li>
-                        <li class="nav-item"><a href="quem-somos.php" class="nav-link">Quem Somos</a></li>      
+                    <li class="nav-item"><a href="<?php echo !$resultado ? "" : "../../" ;?>contato.php" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="<?php echo !$resultado ? "" : "../../" ;?>quem-somos.php" class="nav-link">Quem Somos</a></li>
                     </li>
                 </ul>
             </div>

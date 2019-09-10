@@ -75,6 +75,11 @@
     padding: 0;
     border: 0;
     background-color: transparent;
+    margin: 0;
+}
+
+.dropdown-menu a {
+    color: #000;
 }
 
 .dropdown-menu img {
@@ -130,4 +135,8 @@
         font-weight: 400;
         border: 0;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    }
+
+    .dropdown-item {
+        background-color: transparent !important;
     }
