@@ -1,0 +1,133 @@
+/**Configurações Header*/
+.box_button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1 {
+    width: 35px;
+}
+
+.bar2 {
+    width: 30px;
+}
+
+.bar3 {
+    width: 35px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    width: 35px;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    width: 35px;
+    opacity: 0;
+}
+
+.change .bar3 {
+    width: 35px;
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.menu-large {
+    position: static !important;
+}
+
+.megamenu {
+    width: 100%;
+    background-color: #fff !important;
+
+}
+
+@media (max-width: 768px) {
+
+    .dropdown-item {
+        padding: 0;
+    }
+}
+
+.footer a {
+    color: #fff;
+}
+/**Configurações Header*/
+
+
+
+/**BootStrap Alterações*/
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.dropdown-menu img {
+    border-radius: 4px;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+    outline: none !important;
+}
+
+@media screen and (max-width: 767px) {
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    top: 0;
+}
+}
+
+@media screen and (max-width: 350px) {
+    .navbar-brand {
+        position: relative;
+    }
+    }
+
+
+
+    .testimonial-card .card-up {
+        overflow: hidden;
+        height: 120px;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        background: linear-gradient(40deg,#2096ff,#05ffa3) !important;
+    }
+
+    .testimonial-card .avatar {
+        border-radius: 50%;
+        /* width: 120px; */
+        margin-top: -60px;
+        overflow: hidden;
+        border: 5px solid #fff;
+    }
+
+    .card-body {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        -webkit-border-radius: 0!important;
+        border-radius: 0!important;
+    }
+
+    .card {
+        font-weight: 400;
+        border: 0;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    }
