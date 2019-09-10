@@ -15,7 +15,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
     <link rel="icon" type="image/png" href="<?php echo !$resultado ? "" : "../../" ;?>img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo !$resultado ? $cssPath : $cssPath ."css/" ;?>style.css">
@@ -25,18 +24,6 @@
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/henrique/css/style.css">
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/vinicius/css/style.css">
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/wagner/css/style.css">
-=======
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="autores/andre/css/style.css">
-    <link rel="stylesheet" href="autores/caio/css/style.css">
-    <link rel="stylesheet" href="autores/carol/css/style.css">
-    <link rel="stylesheet" href="autores/henrique/css/style.css">
-    <link rel="stylesheet" href="autores/vinicius/css/style.css">
-    <link rel="stylesheet" href="autores/wagner/css/style.css">
->>>>>>> 871a26d4357f077d3b6e45021b75332ea0f22373
     <title>Quadrinhos</title>
 </head>
 

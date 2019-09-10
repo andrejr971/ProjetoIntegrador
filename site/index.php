@@ -5,7 +5,7 @@ include('templates/header.php');
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col col-slide-left">
                         <a href="#">
                             <img src="https://source.unsplash.com/random/400x200" class="d-block w-100 img-bordas" alt="">
@@ -16,7 +16,7 @@ include('templates/header.php');
                         <div class="row">
                             <div class="col">
                                 <a href="#" class="link-slide">
-                                    <div class="row">
+                                    <div class="row m-1">
                                         <div class="col-5">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
@@ -28,10 +28,10 @@ include('templates/header.php');
                             </div>
                         </div>
                         <div class="w-100"></div>
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
+                                    <div class="row m-1">
                                         <div class="col-5">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
@@ -43,10 +43,10 @@ include('templates/header.php');
                             </div>
                         </div>
                         <div class="w-100"></div>
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
+                                    <div class="row m-1">
                                         <div class="col-5">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
@@ -61,7 +61,7 @@ include('templates/header.php');
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col">
                         <a href="#">
                             <img src="https://source.unsplash.com/random/400x200" class="d-block w-100 img-bordas" alt="">
@@ -69,10 +69,10 @@ include('templates/header.php');
                         </a>
                     </div>
                     <div class="col-5 col-slide-right">
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
+                                    <div class="row m-1">
                                         <div class="col-5">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
@@ -84,10 +84,10 @@ include('templates/header.php');
                             </div>
                         </div>
                         <div class="w-100"></div>
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
+                                    <div class="row m-1">
                                         <div class="col-5">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
@@ -99,10 +99,10 @@ include('templates/header.php');
                             </div>
                         </div>
                         <div class="w-100"></div>
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
+                                    <div class="row m-1">
                                         <div class="col-5">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
@@ -117,7 +117,7 @@ include('templates/header.php');
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col">
                         <a href="#">
                             <img src="https://source.unsplash.com/random/400x200" class="d-block w-100 img-bordas" alt="">
@@ -125,11 +125,11 @@ include('templates/header.php');
                         </a>
                     </div>
                     <div class="col-5 col-slide-right">
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
-                                        <div class="col-5">
+                                    <div class="row m-1 m-1">
+                                        <div class="col-5 mb-1">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
                                         <div class="col">
@@ -140,11 +140,11 @@ include('templates/header.php');
                             </div>
                         </div>
                         <div class="w-100"></div>
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
-                                        <div class="col-5">
+                                    <div class="row m-1">
+                                        <div class="col-5 mb-1">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
                                         <div class="col">
@@ -155,11 +155,11 @@ include('templates/header.php');
                             </div>
                         </div>
                         <div class="w-100"></div>
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <a href="#">
-                                    <div class="row">
-                                        <div class="col-5">
+                                    <div class="row m-1">
+                                        <div class="col-5 mb-1">
                                             <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                         </div>
                                         <div class="col">
@@ -188,10 +188,10 @@ include('templates/header.php');
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row">
+                    <div class="row m-1">
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -203,33 +203,7 @@ include('templates/header.php');
                         </div>
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h3>Lorem ipsum dolor sit amet.</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="#" class="link-slide">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h3>Lorem ipsum dolor sit amet.</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -240,10 +214,10 @@ include('templates/header.php');
                             </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row m-1">
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -255,7 +229,33 @@ include('templates/header.php');
                         </div>
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
+                                    <div class="col-sm-6">
+                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h3>Lorem ipsum dolor sit amet.</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row m-1">
+                        <div class="col-sm-6">
+                            <a href="#" class="link-slide">
+                                <div class="row m-1">
+                                    <div class="col-sm-6">
+                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h3>Lorem ipsum dolor sit amet.</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" class="link-slide">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -269,10 +269,10 @@ include('templates/header.php');
                 </div>
 
                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <div class="row">
+                <div class="row m-1">
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -284,33 +284,7 @@ include('templates/header.php');
                         </div>
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h3>Lorem ipsum dolor sit amet.</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="#" class="link-slide">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
-                                    </div>
-                                    <div class="col">
-                                        <h3>Lorem ipsum dolor sit amet.</h3>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -321,10 +295,10 @@ include('templates/header.php');
                             </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row m-1">
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -336,7 +310,33 @@ include('templates/header.php');
                         </div>
                         <div class="col-sm-6">
                             <a href="#" class="link-slide">
-                                <div class="row">
+                                <div class="row m-1">
+                                    <div class="col-sm-6">
+                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h3>Lorem ipsum dolor sit amet.</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row m-1">
+                        <div class="col-sm-6">
+                            <a href="#" class="link-slide">
+                                <div class="row m-1">
+                                    <div class="col-sm-6">
+                                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h3>Lorem ipsum dolor sit amet.</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" class="link-slide">
+                                <div class="row m-1">
                                     <div class="col-sm-6">
                                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                                     </div>
@@ -352,10 +352,10 @@ include('templates/header.php');
         </article>
         <aside class="item-lateral">
             <h2>Lorem</h2>
-            <div class="row">
+            <div class="row m-1">
                 <div class="col">
                     <a href="#" class="link-slide">
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                             </div>
@@ -366,10 +366,10 @@ include('templates/header.php');
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-1">
                 <div class="col">
                     <a href="#" class="link-slide">
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                             </div>
@@ -380,10 +380,10 @@ include('templates/header.php');
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-1">
                 <div class="col">
                     <a href="#" class="link-slide">
-                        <div class="row">
+                        <div class="row m-1">
                             <div class="col">
                                 <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                             </div>
@@ -399,9 +399,9 @@ include('templates/header.php');
 
     <section class="news">
         <h2>Últimas Notícias</h2>
-        <div class="row">
+        <div class="row m-1">
             <div class="col-sm-6">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col-sm-6">
                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                     </div>
@@ -412,31 +412,7 @@ include('templates/header.php');
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
-                    </div>
-                    <div class="col">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eos a obcaecati eveniet impedit, quis accusamus cumque suscipit voluptas earum.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
-                    </div>
-                    <div class="col">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eos a obcaecati eveniet impedit, quis accusamus cumque suscipit voluptas earum.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col-sm-6">
                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                     </div>
@@ -447,9 +423,9 @@ include('templates/header.php');
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row m-1">
             <div class="col-sm-6">
-                <div class="row">
+                <div class="row m-1">
                     <div class="col-sm-6">
                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                     </div>
@@ -460,7 +436,31 @@ include('templates/header.php');
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="row">
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
+                    </div>
+                    <div class="col">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eos a obcaecati eveniet impedit, quis accusamus cumque suscipit voluptas earum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-1">
+            <div class="col-sm-6">
+                <div class="row m-1">
+                    <div class="col-sm-6">
+                        <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
+                    </div>
+                    <div class="col">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eos a obcaecati eveniet impedit, quis accusamus cumque suscipit voluptas earum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row m-1">
                     <div class="col-sm-6">
                         <img src="https://source.unsplash.com/random/150x100" class="d-block w-100 img-bordas" alt="">
                     </div>

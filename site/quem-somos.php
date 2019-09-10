@@ -56,7 +56,7 @@
                                     <img src="img/usuario.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title font-weight-bold">Vinicius Beloti</h4>
+                                    <h4 class="card-title font-weight-bold">Caio César Assumpção Rosseto</h4>
                                     <small>Coder</small>
                                     <p>RA: <strong>2650831913004</strong></p>
                                     <hr>
@@ -77,7 +77,7 @@
                                     <img src="img/usuario.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title font-weight-bold">Vinicius Beloti</h4>
+                                    <h4 class="card-title font-weight-bold">Caroline da Silva Nunes</h4>
                                     <small>Coder</small>
                                     <p>RA: <strong>2650831913004</strong></p>
                                     <hr>
@@ -98,7 +98,7 @@
                                     <img src="img/usuario.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title font-weight-bold">Vinicius Beloti</h4>
+                                    <h4 class="card-title font-weight-bold">Henrique De Siqueira Leão Soares</h4>
                                     <small>Coder</small>
                                     <p>RA: <strong>2650831913004</strong></p>
                                     <hr>
@@ -119,7 +119,7 @@
                                     <img src="img/usuario.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title font-weight-bold">Vinicius Beloti</h4>
+                                    <h4 class="card-title font-weight-bold">Wagner Alessandro Moraes</h4>
                                     <small>Coder</small>
                                     <p>RA: <strong>2650831913004</strong></p>
                                     <hr>
