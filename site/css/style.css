@@ -213,3 +213,13 @@ a h3 {
         display: none;
     }
 }
+
+.titulo2-news {
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.titulo3-pop {
+    font-size: 1.2em;
+    text-align: center;
+}

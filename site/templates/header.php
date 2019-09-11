@@ -24,11 +24,12 @@
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/henrique/css/style.css">
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/vinicius/css/style.css">
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/wagner/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/andre/css/style.css">
     <title>Quadrinhos</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-md">
+    <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
         <div class="container">
 
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,7 +46,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="<?php echo !$resultado ? "" : "../../" ;?>index.php" class="nav-link">Home</a></li>
                     <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Categorias</a>
                         <ul class="dropdown-menu megamenu">
                             <li class="dropdown-item">
@@ -65,7 +66,7 @@
 
                                     </div>
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
-                                        <a href="#">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/andre/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_dc.jpg">
                                             <div>DC</div>
                                         </a>
