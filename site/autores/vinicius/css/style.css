@@ -7,10 +7,6 @@
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
-.card {
-    box-shadow: none !important;
-}
-
 .card-img-top {
     width: 100%;
     border-top-left-radius: calc(.25rem - 1px);
@@ -34,7 +30,11 @@
         height: 120px;
         border-top-left-radius: .25rem;
         border-top-right-radius: .25rem;
-        background: linear-gradient(40deg,#c31432,#240b36) !important;
+        /* background: linear-gradient(40deg,#c31432,#240b36) !important; */
+        background-image: url('../img/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+
     }
 
     .testimonial-card-2 .avatar {
@@ -57,4 +57,59 @@
         font-weight: 400;
         border: 0;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    }
+
+    .card-titulo {
+        background-color: #c31432;
+    }
+
+    .box--marvel a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .shadow-none {
+        box-shadow: none;
+    }
+
+    .navegacao-marvel a {
+        width: 130px;
+        display: block;
+        height: 50px;
+        margin: 0.5rem 0.3rem; 
+        background-color: #d4d7dd;
+        border-radius: 4px;
+        color: #1c2938;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    .artigos--marvel h1 {
+        font-size: 1.2rem;
+    }
+
+    .artigos--marvel h2 {
+        font-size: 1rem;
+    }
+
+   
+
+    @media screen and (max-width: 330px) {
+        .navegacao-marvel a {
+            width: 100px;
+        }
+
+        .navegacao-marvel li:nth-child(2) {
+            font-size: 0.7rem;
+        }
+    }
+
+    @media screen and (max-width: 266px) {
+        .navegacao-marvel a {
+            width: 140px;
+        }
+
+        .navegacao-marvel li:nth-child(2) {
+            font-size: 1rem;
+        }
     }
