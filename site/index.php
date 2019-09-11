@@ -2,7 +2,7 @@
 include('templates/header.php');
 include('php/banco.php');
 ?>
-<div class="container">
+<div class="container home">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">

@@ -62,6 +62,7 @@
 .footer a {
     color: #fff;
 }
+
 /**Configurações Header*/
 
 
@@ -92,59 +93,59 @@
 }
 
 @media screen and (max-width: 767px) {
-.navbar-brand {
-    transform: translateX(-50%);
-    left: 50%;
-    position: absolute;
-    top: 0;
-}
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .navbar-brand {
         position: relative;
     }
-    }
+}
 
 
 
-    .testimonial-card .card-up {
-        overflow: hidden;
-        height: 120px;
-        border-top-left-radius: .25rem;
-        border-top-right-radius: .25rem;
-        background: linear-gradient(40deg,#2096ff,#05ffa3) !important;
-    }
+.testimonial-card .card-up {
+    overflow: hidden;
+    height: 120px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
 
-    .testimonial-card .avatar {
-        border-radius: 50%;
-        /* width: 120px; */
-        margin-top: -60px;
-        overflow: hidden;
-        border: 5px solid #fff;
-    }
+.testimonial-card .avatar {
+    border-radius: 50%;
+    /* width: 120px; */
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
 
-    .card-body {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        -webkit-border-radius: 0!important;
-        border-radius: 0!important;
-    }
+.card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
 
-    .card {
-        font-weight: 400;
-        border: 0;
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-    }
+.card {
+    font-weight: 400;
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
 
-    .dropdown-item {
-        background-color: transparent !important;
-    }
+.dropdown-item {
+    background-color: transparent !important;
+}
 
 
 
-    /*Home**/
-    /**HOME**/
+/*Home**/
+/**HOME**/
 .img-bordas {
     border-radius: 10px;
 }
@@ -157,14 +158,14 @@
     background-color: #000;
 }
 
-h2,
-h3 {
+.home h2,
+.home h3 {
     font-size: 1.2em;
     font-weight: 700;
 }
 
-a h2,
-a h3 {
+.home a h2,
+.home a h3 {
     font-weight: 700;
     color: #000;
     text-decoration: none;

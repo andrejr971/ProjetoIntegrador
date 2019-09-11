@@ -53,7 +53,7 @@
                                 <div class="row">
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
                                         <a href="#">
-                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_menu.jpg">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_dark.jpg">
                                             <div>Dark Horse</div>
                                         </a>
 
