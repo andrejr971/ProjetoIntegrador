@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/henrique/css/style.css">
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/vinicius/css/style.css">
     <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/wagner/css/style.css">
+    <link rel="stylesheet" href="<?php echo !$resultado ? "" : "../../" ;?>autores/andre/css/style.css">
     <title>Quadrinhos</title>
 </head>
 
@@ -65,7 +66,7 @@
 
                                     </div>
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
-                                        <a href="#">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/andre/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_dc.jpg">
                                             <div>DC</div>
                                         </a>
