@@ -6,6 +6,13 @@
 }
 
 .titulo2 {
+    font-size: 1.0em;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.titulo3 {
+    font-size: 1.3em;
     border-bottom: 1px solid #dee2e6;
     text-align: center;
 }
@@ -18,8 +25,12 @@
     box-shadow: 3px 3px 3px #dee2e6;
 }
 
-.legend {
+.legenda {
     margin-top: -50px;
     margin-left: 90px;
     float: left;
+}
+
+.legenda h3 {
+    font-size: 1.0em;
 }

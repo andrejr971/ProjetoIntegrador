@@ -9,6 +9,7 @@ include('../../templates/header.php');
     </div>
     <main class="row m-1">
         <h1 class="titulo col-12">DC Comics</h1>
+        <p>DC Comics é uma das grandes empresas norte-americanas de histórias em quadrinhos. A sigla DC significa Detective Comics, o título de uma história em quadrinhos de Batman, publicada em 1939. Os super-heróis criados pela DC Comics fazem parte do chamado "Universo DC", que consagrou Batman e Superman, os personagens mais famosos criados pela DC Comics. Outros personagens representativos da editora são a Mulher Maravilha, Flash, Lanterna Verde, Aquaman, dentre outros.</p>
         <article class="col-12">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -23,21 +24,21 @@ include('../../templates/header.php');
                     <div class="card-group">
                         <div class="card m-1">
                             <img src="https://source.unsplash.com/random/300x150" class="card-img-top" alt="...">
-                            <div class="card-body shadow-lg p-3 mb-3 bg-white rounded">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                         </div>
                         <div class="card m-1">
                             <img src="https://source.unsplash.com/random/300x150" class="card-img-top " alt="...">
-                            <div class="card-body shadow-lg p-3 mb-3 bg-white rounded">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
                         <div class="card m-1">
                             <img src="https://source.unsplash.com/random/300x150" class="card-img-top" alt="...">
-                            <div class="card-body shadow-lg p-3 mb-3 bg-white rounded">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                             </div>
@@ -48,22 +49,22 @@ include('../../templates/header.php');
                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="card-group">
                         <div class="card m-1">
-                            <img src="https://source.unsplash.com/random/300x150" class="card-img-top img-bordas" alt="...">
-                            <div class="card-body shadow-lg p-3 mb-3 bg-white rounded">
+                            <img src="https://source.unsplash.com/random/300x150" class="card-img-top" alt="...">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                         </div>
                         <div class="card m-1">
                             <img src="https://source.unsplash.com/random/300x150" class="card-img-top " alt="...">
-                            <div class="card-body shadow-lg p-3 mb-3 bg-white rounded">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
                         <div class="card m-1">
                             <img src="https://source.unsplash.com/random/300x150" class="card-img-top" alt="...">
-                            <div class="card-body shadow-lg p-3 mb-3 bg-white rounded">
+                            <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                             </div>
@@ -73,131 +74,116 @@ include('../../templates/header.php');
             </div>
         </article>
     </main>
-    <section class="row">
-        <h2 class="titulo2 col-12">Personagens Famosos</h2>
-        <div class="col-md-3">
+    <section class="row mt-1">
+        <h2 class="titulo3 col-12">Personagens Famosos</h2>
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="personas">
                 <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+                    <img src="https://source.unsplash.com/random/80x80" alt="">
                 </div>
-                <div class="legend">
+                <div class="legenda">
                     <h3>Lorem, ipsum dolor.</h3>
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
-            <div class="personas">
-                <div class="img-personas">
-                    <img src="https://source.unsplash.com/random/80x80" class="img-bordas" alt="">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <a href="#" data-toggle="modal" data-target="#exampleModalScrollable">
+                <div class="personas">
+                    <div class="img-personas">
+                        <img src="https://source.unsplash.com/random/80x80" alt="">
+                    </div>
+                    <div class="legenda">
+                        <h3>Lorem, ipsum dolor.</h3>
+                    </div>
                 </div>
-                <div class="legend">
-                    <h3>Lorem, ipsum dolor.</h3>
-                </div>
-            </div>
+            </a>
         </div>
+
     </section>
 
-    <section class="row">
+    <section class="row mt-1">
         <div class="col-12">
-            <h2 class="titulo2">Quadrinhos</h2>
+            <h2 class="titulo3">Quadrinhos</h2>
         </div>
-        <div class="col-md-2 col-sm-3 mb-1">
+        <div class="col-6  col-md-4 col-lg-2 mb-1">
             <img src="https://source.unsplash.com/random/150x200" class="d-block w-100 img-bordas" alt="">
         </div>
-        <div class="col-md-2 col-sm-3 mb-1">
+        <div class="col-6  col-md-4 col-lg-2 mb-1">
             <img src="https://source.unsplash.com/random/150x200" class="d-block w-100 img-bordas" alt="">
         </div>
-        <div class="col-md-2 mb-1">
+        <div class="col-6  col-md-4 col-lg-2 mb-1">
             <img src="https://source.unsplash.com/random/150x200" class="d-block w-100 img-bordas" alt="">
         </div>
-        <div class="col-md-2 mb-1">
+        <div class="col-6  col-md-4 col-lg-2 mb-1">
             <img src="https://source.unsplash.com/random/150x200" class="d-block w-100 img-bordas" alt="">
         </div>
-        <div class="col-md-2 mb-1">
+        <div class="col-6  col-md-4 col-lg-2 mb-1">
             <img src="https://source.unsplash.com/random/150x200" class="d-block w-100 img-bordas" alt="">
         </div>
-        <div class="col-md-2 mb-1">
+        <div class="col-6  col-md-4 col-lg-2 mb-1">
             <img src="https://source.unsplash.com/random/150x200" class="d-block w-100 img-bordas" alt="">
         </div>
-
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
+        
     </section>
 
 </div>
