@@ -110,15 +110,17 @@
 
 
 
-.testimonial-card .card-up {
+/*Quem Somos*/
+
+.card-fundo {
     overflow: hidden;
     height: 120px;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+    background: linear-gradient(40deg, #2096ff, #05ffa3);
 }
 
-.testimonial-card .avatar {
+.avatar {
     border-radius: 50%;
     /* width: 120px; */
     margin-top: -60px;
@@ -129,19 +131,16 @@
 .card-body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    -webkit-border-radius: 0 !important;
-    border-radius: 0 !important;
+    border-radius: 0;
 }
 
-.card {
+/* .card {
     font-weight: 400;
     border: 0;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-}
+} */
 
-.dropdown-item {
-    background-color: transparent !important;
-}
+/*Quem Somos*/
 
 
 

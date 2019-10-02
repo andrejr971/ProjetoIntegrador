@@ -11,10 +11,10 @@
 
             <div class="row">
                 <div class="col-12">
-                    <div class="card testimonial-card-2 mt-2 mb-3">
-                        <div class="card-up"></div>
+                    <div class="card mt-2 mb-3">
+                        <div class="card-fundo-marvel"></div>
                         <div class="avatar mx-auto">
-                            <img src="img/marvel.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
+                            <img src="img/marvel.jpg" alt="Vinicius">
                         </div>
                     </div>
                 </div>
@@ -22,14 +22,14 @@
 
             <div class="row">
                 <div class="col-12">
-                    <nav class="navegacao-marvel">
-                        <ul class="nav nav-pills justify-content-center text-center">
-                            <li class=""><a class="" href="deadpool.php">Deadpool</a></li>
-                            <li class=""><a class="" href="home-de-ferro.php">Homem de Ferro</a></li>
-                            <li class=""><a class="" href="wakanda.php">Wakanda</a></li>
-                            <li class=""><a class="" href="velho-logan.php">Logan</a></li>
-                            <li class=""><a class="" href="wolverine.php">Wolverine</a></li>
-                            <li class=""><a class="" href="shield.php">Shield</a></li>
+                    <nav class="">
+                        <ul class="nav nav-pills flex-column flex-sm-row justify-content-center">
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary mb-md-3" href="deadpool.php">Deadpool</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="home-de-ferro.php">Homem de Ferro</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="wakanda.php">Wakanda</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="velho-logan.php">Logan</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="wolverine.php">Wolverine</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="shield.php">Shield</a></li>
                         </ul>
                     </nav>
                 </div>
