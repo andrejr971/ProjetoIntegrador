@@ -1,5 +1,6 @@
 <?php
     include ('templates/header.php');
+    //Incluido o menu de navegação
 ?>
     <main>
         <div class="container">
@@ -9,7 +10,7 @@
                         <h2 class="text-center">Contato</h2>
                         <div class="form-group">
                             <label for="nome">Nome</label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome...">
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu email...">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>

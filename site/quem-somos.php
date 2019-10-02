@@ -13,27 +13,6 @@
                             <div class="card testimonial-card mt-2 mb-3">
                                 <div class="card-up"></div>
                                 <div class="avatar mx-auto">
-                                    <img src="img/vinicius.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="card-title font-weight-bold">Vinicius Beloti</h4>
-                                    <small>Coder</small>
-                                    <p>RA: <strong>2650831913004</strong></p>
-                                    <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
-                                    <h4>Áreas</h4>
-                                    <div><a href="contato.php">Contato</a></div>
-                                    <div><a href="quem-somos.php">Quem Somos</a></div>
-                                    <div><a href="autores/vinicius/index.php">Marvel</a></div>
-                                    <div><a href="contato.php">Contato</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card testimonial-card mt-2 mb-3">
-                                <div class="card-up"></div>
-                                <div class="avatar mx-auto">
                                     <img src="img/andre.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
                                 </div>
                                 <div class="card-body">
@@ -102,6 +81,27 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-4">
+                            <div class="card testimonial-card mt-2 mb-3">
+                                <div class="card-up"></div>
+                                <div class="avatar mx-auto">
+                                    <img src="img/vinicius.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">Vinicius Beloti</h4>
+                                    <small>Coder</small>
+                                    <p>RA: <strong>2650831913004</strong></p>
+                                    <hr>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <h4>Áreas</h4>
+                                    <div><a href="quem-somos.php">Quem Somos</a></div>
+                                    <div><a href="autores/vinicius/index.php">Marvel</a></div>
+                                    <div><a href="contato.php">Contato</a></div>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <div class="col-md-4">
                             <div class="card testimonial-card mt-2 mb-3">
