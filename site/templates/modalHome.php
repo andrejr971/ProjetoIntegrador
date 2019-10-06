@@ -1,4 +1,4 @@
-<!-- Modal Slide -->
+<!-- Modal -->
 <div class="modal fade" id="new1" tabindex="-1" role="dialog" aria-labelledby="new1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -119,95 +119,6 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="new5" tabindex="-1" role="dialog" aria-labelledby="new5" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Editora Skript lançará O Chamado de Cthulhu com ilustrações de Salvador Sanz</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="img/home/slide2.jpg" class="d-block w-100 img-bordas" alt="">
-                <p>A Editora Skript anunciou o lançamento do clássico de terror O Chamado de Cthulhu, obra máxima do escritor norte-americano H.P. Lovecraft (1890-1937), numa versão especial com ilustrações do quadrinhista argentino Salvador Sanz.</p>
-                <p>A pré-venda está sendo feita pelo Catarse, e conta com recompensas exclusivas.</p>
-                <p>Os 100 primeiros apoiadores receberão um postal autografado pelo quadrinhista.</p>
-                <p>O conto foi originalmente publicado na Weird Tales de fevereiro de 1928, escrito por Howard Phillips Lovecraft. Nele, apareceu pela primeira vez o aterrador Cthulhu, entidade mais famosa do panteão lovecraftiano que tanto influenciou a cultura pop.</p>
-                <p>Um dos Grandes Antigos, seu nome é impronunciável por conta da biologia humana. Por isso, há várias maneiras de chamá-lo, como são várias as suas formas. Submerso e adormecido na cidade perdida de R’Lyeh, quando houver o alinhamento cósmico adequado, ele retornará.</p>
-                <p>O Chamado de Cthulhu terá formato widescreen, acabamento de luxo e será em cores.</p>
-                <p>Salvador Sanz e mais conhecido no Brasil pelos seus quadirnhos publicados pela editora Zarabatana Books, como O Esqueleto, Noturno, Legião e Angela Della Morte.</p>
-                <p><strong>Referência</strong></p>
-                <p>
-                    <a href="http://www.universohq.com/noticias/editora-skript-lancara-o-chamado-de-cthulhu-com-ilustracoes-de-salvador-sanz/" target="_blank">
-                        http://www.universohq.com/noticias/editora-skript-lancara-o-chamado-de-cthulhu-com-ilustracoes-de-salvador-sanz/
-                    </a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="new6" tabindex="-1" role="dialog" aria-labelledby="new6" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Edições de The Boys começam a ficar disponíveis no Social Comics em parceria com a Devir</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="img/home/news4.jpg" class="img-modal img-bordas" alt="">
-                <p>A Devir publica The Boys no Brasil desde 2010 e, agora, com a estreia do seriado pela Amazon Prime Videos, as histórias passam a ficar disponíveis também na plataforma de streaming de quadrinhos Social Comics.</p>
-                <p>Criado por Garth Ennis e Darick Robertson, a série mostra super-heróis que abusam de seus poderes.As tramas subvertem o gênero de super-heróis mostrando um lado diferente dos seres superpoderosos: falhos e problemáticos, egocêntricos, egoístas e narcisistas. Uma paródia regada a humor, violência e sexo, marcas registradas do autor.</p>
-                <p>The Boys já foi indicada ao Eisner Awards como melhor série regular, em 2008, e ao Scream Awards como melhor quadrinho, em 2010.</p>
-                <p>Dentre as outras obras adaptadas para o audiovisual e disponíveis na plataforma, estão The Umbrella Academy (também Devir), Hellboy (Mythos) e O Doutrinador (Guará Entretenimento). Também é possível ler as aventuras de Bloodshot, da Valiant Entertainment, que em breve ganhará um filme próprio estrelado por Vin Diesel.</p>
-                <p>O Social Comics é um serviço de streaming de conteúdo em quadrinhos com um conceito similar à Netflix, que disponibiliza toda semana novas histórias em quadrinhos, sendo inclusive possível baixar para leitura offline. A plataforma está na versão 3.0 e conta com inovações na experiência do usuário, além da opção de criar uma conta grátis que dá acesso a navegação pela plataforma e a leitura de várias edições, além de novos e diversificados planos de assinatura, com condições especiais para usuários da operadora de telefonia celular Claro, além do perfil Kids, com acesso conforme a faixa etária.</p>
-                <p><strong>Referência</strong></p>
-                <p>
-                    <a href="http://www.universohq.com/noticias/edicoes-de-the-boys-comecam-ficar-disponiveis-no-social-comics-em-parceria-com-devir/" target="_blank">
-                        http://www.universohq.com/noticias/edicoes-de-the-boys-comecam-ficar-disponiveis-no-social-comics-em-parceria-com-devir/
-                    </a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="new7" tabindex="-1" role="dialog" aria-labelledby="new7" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">O negro nos quadrinhos do Brasil, da Editora Peirópolis, está à venda</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="img/home/news5.jpg" class="img-modal img-bordas" alt="">
-                <p>O livro O negro nos quadrinhos do Brasil (formato 17 x 24 cm, 344 páginas), do professor e escritor Nobu Chinen, é um lançamento da Editora Peirópolis.</p>
-                <p>A obra é fruto de minuciosa pesquisa, buscando compreender a construção da imagem do negro nas narrativas gráficas, desde as artes visuais em seus primeiros registros da presença dos africanos no Brasil, sequestrados e escravizados para servir ao propósito colonizador, até a produção atual, do mainstream às HQs autorais.</p>
-                <p>Ao mesmo tempo em que expõe, como o próprio autor diz, “a verdadeira face de um país preconceituoso e racista, mas que resiste em admitir essa característica”, Nobu promove um justo resgate de parte importante de nossa historiografia, em que a crescente, porém insuficiente, marca de autores negros vem influenciando positivamente a forma de representação do negro nessa mídia, restituindo-lhe o papel fundamental na formação de nosso país como nação política independente.</p>
-                <p>Dois eventos vão marcar a publicação deste estudo inédito sobre as mídias e a questão étnico-racial: uma sessão de autógrafos no dia 22 de agosto, às 19h, durante as 6as. Jornadas Internacionais de Histórias em Quadrinhos, evento que reúne cerca de 400 pesquisadores da área na Escola de Comunicação e Artes da Universidade de São Paulo, e, no sábado, dia 31 de agosto, a partir das 16h, na Ugra Press (Rua Augusta, 1371 – Loja 116), em São Paulo/SP.</p>
-                <p>O livro está à venda nas versões impressa (R$ 72,00) e e-book (R$ 43,20).</p>
-                <p><strong>Referência</strong></p>
-                <p>
-                    <a href="http://www.universohq.com/noticias/o-negro-nos-quadrinhos-do-brasil-da-editora-peiropolis-esta-venda/" target="_blank">
-                        http://www.universohq.com/noticias/o-negro-nos-quadrinhos-do-brasil-da-editora-peiropolis-esta-venda/
-                    </a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="modal fade" id="new8" tabindex="-1" role="dialog" aria-labelledby="new8" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -230,102 +141,6 @@
                 <p>
                     <a href="http://www.universohq.com/noticias/brad-barron-personagem-da-sergio-bonelli-editore-chega-ao-brasil-pela-graphite-editora/" target="_blank">
                         http://www.universohq.com/noticias/brad-barron-personagem-da-sergio-bonelli-editore-chega-ao-brasil-pela-graphite-editora/
-                    </a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="new9" tabindex="-1" role="dialog" aria-labelledby="new9" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Marvel retorna ao Universo 2099, incluindo uma edição com o Conan</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="img/home/slide3.jpg" class="d-block w-100 img-bordas" alt="">
-                <p>A Marvel anunciou novas revistas revisitando a realidade alternativa 2099, linha de publicações lançada originalmente na década de 1990 e que mostrava versões futuristas de seus super-heróis, como Homem-Aranha, X-Men, Hulk, Justiceiro, Motoqueiro Fantasma, Thor e outros.</p>
-                <p>Em novembro, será lançadas diversas edições especiais com diferentes personagens, incluindo o Conan, que fará sua estreia na linha.</p>
-                <p>Tudo terá início na revista 2099 Alpha # 1, com roteiro de Nick Spencer e arte de Viktor Bogdonovic. De acordo com a sinopse oficial, o futuro está em perigo por causa de eventos mostrados da série Amazing Spider-Man, e algo está acontecendo em 2099 que afetará radicalmente Nueva York e toda a realidade futurista.</p>
-                <p>O especial Conan 2099 # 1 será escrito por Gerry Duggan e desenhado por Rogê Antônio. Em 2099, o barbarismo triunfará sobre uma civilização ameaçada? Quando Conan entrou no Universo Marvel em Savage Avengers, permaneceu para conquistar e reivindicar seu reino nos tempos modernos. Agora, amaldiçoado para viver além do período normal, o reino de Conan é amaldiçoado e se vê obrigado a desembainhar a espada novamente.</p>
-                <p>Outras revistas que participarão da saga são:</p>
-                <ul>
-                    <li>Amazing Spider-Man # 33;</li>
-                    <li>Amazing Spider-Man # 34;</li>
-                    <li>Amazing Spider-Man # 35;</li>
-                    <li>Fantastic Four 2099 # 1;</li>
-                    <li>Punisher 2099 # 1;</li>
-                    <li>Spider-Man 2099 # 1;</li>
-                    <li>Ghost Rider 2099 # 1;</li>
-                    <li>Doom 2099 # 1;</li>
-                    <li>Venom 2099 # 1.</li>
-                </ul>
-                <p><strong>Referência</strong></p>
-                <p>
-                    <a href="http://www.universohq.com/noticias/marvel-retorna-ao-universo-2099-incluindo-uma-edicao-com-o-conan/" target="_blank">
-                        http://www.universohq.com/noticias/marvel-retorna-ao-universo-2099-incluindo-uma-edicao-com-o-conan/
-                    </a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="new10" tabindex="-1" role="dialog" aria-labelledby="new10" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Confira o pôster oficial da exposição que celebra os 80 anos do Batman</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="img/home/news7.jpg" class="img-modal img-bordas" alt="">
-                <p>Batman 80 – A Exposição ganhou um pôster oficial criado por Ivan Reis, artista exclusivo da DC Comics, com cores de Pedro Cobiaco. A arte inédita estará presente nos materiais de divulgação e também em camisetas, pôsteres, canecas e outros itens que estarão à venda na loja oficial da mostra, a qual também terá diversos itens limitados e exclusivos.</p>
-                <p>Segundo os organizadores, a exposição será uma experiência totalmente imersiva para todas as idades, que levará os visitantes a conhecer e fotografar os principais lugares de Gotham City e seus mais famosos habitantes. Reunindo cenografia, acervo com mais de 500 itens originais dos colecionadores Ivan Freitas da Costa (que assina a curadoria) e Marcio Escoteiro, serão diversos conteúdos sobre o personagem, seu universo e sua evolução ao longo de oito décadas.</p>
-                <p>A mostra integra a comemoração oficial do aniversário do personagem que acontece no mundo todo. Os ingressos, com agendamento de dia e horário para visitação, podem ser adquiridos pelo hotsite oficial e incluem pacotes especiais com itens e serviços exclusivos.</p>
-                <p>Criada em parceria com a Warner Brasil, a exposição é uma realização da Chiaroscuro Studios, da Caselúdico e da Spoladore Eventos. A exposição será realizada no Memorial da América Latina (Portões 8, 9 e 13, Avenida Auro Soares de Moura Andrade, 664), em São Paulo/SP, entre os dias 5 de setembro e 15 de dezembro de 2019.</p>
-                <p><strong>Referência</strong></p>
-                <p>
-                    <a href="http://www.universohq.com/noticias/confira-o-poster-oficial-da-exposicao-celebrando-os-80-anos-do-batman/" target="_blank">
-                        http://www.universohq.com/noticias/confira-o-poster-oficial-da-exposicao-celebrando-os-80-anos-do-batman/
-                    </a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="new11" tabindex="-1" role="dialog" aria-labelledby="new11" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Duas HQs nacionais de aventura da Editora Draco estão no Catarse</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="img/home/news8.jpg" class="img-modal img-bordas" alt="">
-                <p>No quinto Catarse seguido da Editora Draco, a casa editorial lança dois quadrinhos de aventura: Cabra D’Água e a Peleja Contra os Gigantes, de Airton Marinho e Lederly Mendonça; e Opticus – Intervenções, de Tiago P. Zanetic, Mauricio Leone e Rodrigo Fernandes.</p>
-                <p>As duas HQs apresentam dois caras que ganharam poderes de forma misteriosa e vão se meter em problemas inimagináveis.</p>
-                <p>Cabra D’Água e a Peleja Contra os Gigantes mostra um rapaz cabeludo, com o corpo 100% feito de água e capaz de manipular esse elemento, ajuda uma comunidade no meio do sertão nordestino. E tudo começa com um estouro de boiada.</p>
-                <p>Opticus – Intervenções é um quadrinho sobre como o Dr. Théo desenvolveu a capacidade de ver além dos limites da visão humana. O problema é que essa visão faz com que ele veja micróbios, bactérias, células e até mesmo as cordas da realidade. Só que quando você olha para o abismo, ele olha de volta para você…</p>
-                <p><strong>Referência</strong></p>
-                <p>
-                    <a href="http://www.universohq.com/noticias/duas-hqs-nacionais-de-aventura-da-editora-draco-estao-no-catarse/" target="_blank">
-                        http://www.universohq.com/noticias/duas-hqs-nacionais-de-aventura-da-editora-draco-estao-no-catarse/
                     </a>
                 </p>
             </div>
@@ -481,6 +296,8 @@
         </div>
     </div>
 </div>
+
+<!-- Modal Noticias -->
 <div class="modal fade" id="noticia1" tabindex="-1" role="dialog" aria-labelledby="noticia1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -582,6 +399,83 @@
                     <a href="http://www.universohq.com/noticias/erick-santos-cardoso-deixa-o-comando-da-area-editorial-da-panini/" target="_blank">
                         http://www.universohq.com/noticias/erick-santos-cardoso-deixa-o-comando-da-area-editorial-da-panini/
                     </a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal DC -->
+<div class="modal fade" id="newDC0" tabindex="-1" role="dialog" aria-labelledby="newDC0" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Esquadrão Suicida | James Gunn revela foto do roteiro e indica trilha sonora</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="img/new0.jpg" class="d-block w-100 img-bordas" alt="">
+                <p>O diretor James Gunn compartilhou em seu Instagram uma foto do roteiro de Esquadrão Suicida, já criando expectativas para a trilha sonora do longa usando a frase da música "Blitzkrieg Bop", do Ramones.</p>
+                <p>Nas redes sociais, a atriz Mayling Ng compartilhou uma foto ao lado de Peter Capaldi, na qual os dois integrantes do elenco são vistos no que parece ser um estúdio, indicando a proximidade do início de filmagens.</p>
+                <p>O novo Esquadrão Suicida deve se inspirar nas HQs do grupo na década de 1980, escritas por Jon Ostrander e Kim Yale e deve contar com um novo elenco de vilões. O lançamento é previsto para em 6 de agosto de 2021.</p>
+                <p><strong>Referência</strong></p>
+                <p><a href="https://www.omelete.com.br/dc-comics/esquadrao-suicida-james-gunn-revela-foto-do-roteiro-e-indica-trilha-sonora" target="_blank">
+                        https://www.omelete.com.br/dc-comics/esquadrao-suicida-james-gunn-revela-foto-do-roteiro-e-indica-trilha-sonora</a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="newDC1" tabindex="-1" role="dialog" aria-labelledby="newDC1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">DC divulga nova linha do tempo oficial</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="img/new1.jpg" class="d-block w-100 img-bordas" alt="">
+                <p>Mudança estabelece Mulher-Maravilha como primeira heroína da editora.</p>
+                <p>Durante a New York Comic-Con 2019, a DC anunciou que lançará uma nova linha do tempo oficial que encaixe melhor as histórias da editora. Dan DiDio, editor-executivo da DC, explicou melhor as mudanças, que estabelecem a Mulher-Maravilha como ponto de partida para o universo heroico da editora.</p>
+                <p>De acordo com DiDio, a chegada de Diana aos Estados Unidos, antes da Segunda Guerra Mundial, estabelece a camada Primeira Geração de Super-Heróis. A segunda, chamada de Era Espacial, é marcada pela primeira aparição do Superman. A Terceira Geração é a Era das Crises e aborda as histórias publicadas entre Crise nas Infinitas Terras, publicada originalmente em 1985, e Ponto de Ignição, de 2011. Atualmente, a editora está na fase Flashpoint.</p>
+                <p>Vale lembrar que a minissérie Doomsday Clock, de Geoff Johns e Gary Frank, mostra a inclusão do universo Watchmen, criado por Alan Moore, ao cânone oficial da DC. Na história, o Batman investiga as constantes mudanças nos multiversos da editora, que podem ou não ter o envolvimento do Doutor Manhattan.Especula-se que, ao fim das doze edições, em dezembro, a nova timelineestará plenamente estabelecida.</p>
+                <p><strong>Referência</strong></p>
+                <p><a href="https://www.omelete.com.br/dc-comics/dc-divulga-nova-timeline-oficial" target="_blank">
+                        https://www.omelete.com.br/dc-comics/dc-divulga-nova-timeline-oficial</a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="newDC2" tabindex="-1" role="dialog" aria-labelledby="newDC2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Descoberto o possível novo Batman da DC Comics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="img/new2.jpg" class="d-block w-100 img-bordas" alt="">
+                <p>A nova era do Batman na DC pode trazer mudanças significativas. Rumores recentes apontam para uma mudança na identidade do herói, que deixará de ser Bruce Wayne para ser Luke Fox, o atual Batwing.</p>
+                <p>Para quem não conhece, Luke Fox é filho de Lucius Fox, antigo colaborador das Empresas Wayne e grande aliado do Batman. Um gênio, o personagem acabou se tornando um membro importante da “família Batman” virando o herói Batwing. Porém, ao que tudo indica, seu papel na DC deve aumentar em breve.</p>
+                <p><strong>Referência</strong></p>
+                <p><a href="https://observatoriodocinema.bol.uol.com.br/artigos/2019/10/descoberto-o-possivel-novo-batman-da-dc-comics" target="_blank">
+                        https://observatoriodocinema.bol.uol.com.br/artigos/2019/10/descoberto-o-possivel-novo-batman-da-dc-comicsl</a>
                 </p>
             </div>
             <div class="modal-footer">

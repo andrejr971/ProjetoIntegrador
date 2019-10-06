@@ -34,3 +34,36 @@
 .legenda h3 {
     font-size: 1.0em;
 }
+
+.secao2 {
+    display: none;
+}
+
+.img-personagens {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.img-person {
+    width: 50px;
+}
+
+.tituloCard {
+    text-align: center;
+}
+
+.escritor {
+    text-align: center;
+    font-size: 1.0em;
+}
+
+@media screen and (max-width: 991px) {
+    .secao2 {
+        display: block;
+    }
+
+    .secao1 {
+        display: none;
+    }
+}

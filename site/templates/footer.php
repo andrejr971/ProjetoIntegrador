@@ -16,16 +16,16 @@
 
             <div class="container">
                 <div class="row justify-content-center p-3">
-                    <img src="<?php echo !$resultado ? "" : "../../" ;?>img/logo_w.png" alt="" srcset="">
+                    <img src="<?php echo !$resultado ? "" : "../../" ;?>img/logo_w.png" alt="Logotipo Parallel Universe">
                 </div>
             </div>
 
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 text-center">
                     <div class="row p-3">
-                        <div class="col-4"><a href="#"><img src="<?php echo !$resultado ? "" : "../../" ;?>img/sociais/twitter.png" alt="" srcset=""></a></div>
-                        <div class="col-4"><a href="#"><img src="<?php echo !$resultado ? "" : "../../" ;?>img/sociais/instagram.png" alt="" srcset=""></a></div>
-                        <div class="col-4"><a href="#"><img src="<?php echo !$resultado ? "" : "../../" ;?>img/sociais/facebook.png" alt="" srcset=""></a></div>
+                        <div class="col-4"><a href="#"><img src="<?php echo !$resultado ? "" : "../../" ;?>img/sociais/twitter.png" alt="Logotipo Twitter - Rodapé"></a></div>
+                        <div class="col-4"><a href="#"><img src="<?php echo !$resultado ? "" : "../../" ;?>img/sociais/instagram.png" alt="Logotipo Instagram - Rodapé"></a></div>
+                        <div class="col-4"><a href="#"><img src="<?php echo !$resultado ? "" : "../../" ;?>img/sociais/facebook.png" alt="Logotipo Facebook - Rodapé"></a></div>
                     </div>
                 </div>
             </div>
