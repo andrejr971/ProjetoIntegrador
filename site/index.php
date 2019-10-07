@@ -98,7 +98,6 @@ include('php/banco.php');
 
                         <?php
                         }
-
                         ?>
                     </div>
                 </div>
@@ -108,11 +107,8 @@ include('php/banco.php');
                         for ($i = 0; $i <= 5; $i++) {
                             $contRand[] = $i;
                         }
-
                         shuffle($contRand);
-
                         foreach ($contRand as $contador) {
-
                             ?>
                             <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-1 mt-1">
                                 <a href="#" class="link-slide" data-toggle="modal" data-target="#quad<?php echo $contador; ?>">
@@ -129,7 +125,6 @@ include('php/banco.php');
 
                         <?php
                         }
-
                         ?>
                     </div>
                 </div>

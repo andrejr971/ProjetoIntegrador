@@ -6,7 +6,7 @@
 <footer class="footer bg-dark">
         <div class="container">
             <div class="row p-3">
-                <div class="col-4 col-md-2"><a href="#">Dark Horse</a></div>
+                <div class="col-4 col-md-2"><a href="#">Ficção Científica</a></div>
                 <div class="col-4 col-md-2"><a href="#">Marvel</a></div>
                 <div class="col-4 col-md-2"><a href="#">DC</a></div>
                 <div class="col-4 col-md-2"><a href="#">LGBTQ+</a></div>

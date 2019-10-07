@@ -11,10 +11,10 @@
 
             <div class="row">
                 <div class="col-12">
-                    <div class="card testimonial-card-2 mt-2 mb-3">
-                        <div class="card-up"></div>
+                    <div class="card mt-2 mb-3">
+                        <div class="card-fundo-marvel"></div>
                         <div class="avatar mx-auto">
-                            <img src="img/marvel.jpg" class="rounded-circle img-responsiv" alt="Vinicius">
+                            <img src="img/marvel.jpg" alt="Vinicius">
                         </div>
                     </div>
                 </div>
@@ -22,124 +22,90 @@
 
             <div class="row">
                 <div class="col-12">
-                    <nav class="navegacao-marvel">
-                        <ul class="nav nav-pills justify-content-center text-center">
-                            <li class=""><a class="" href="deadpool.php">Deadpool</a></li>
-                            <li class=""><a class="" href="home-de-ferro.php">Homem de Ferro</a></li>
-                            <li class=""><a class="" href="wakanda.php">Wakanda</a></li>
-                            <li class=""><a class="" href="logan.php">Logan</a></li>
-                            <li class=""><a class="" href="wolverine.php">Wolverine</a></li>
-                            <li class=""><a class="" href="shield.php">Shield</a></li>
+                    <nav class="">
+                        <ul class="nav nav-pills flex-column flex-sm-row justify-content-center">
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary mb-md-3" href="deadpool.php">Deadpool</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="home-de-ferro.php">Homem de Ferro</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="wakanda.php">Wakanda</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="velho-logan.php">Logan</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="wolverine.php">Wolverine</a></li>
+                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="shield.php">Shield</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
+        </section>
 
-            <div class="row">
-                <div class="col-12 col-md-4 box--marvel">
-                    <a href="home-de-ferro.php">
-                        <div class="card card-cascade wider mt-2 mb-3 shadow-none">
-                            <div class="view view-cascade overlay">
-                                <img class="card-img-top" src="img/homem-de-ferro.jpg" alt="Capa homem de ferro - startk: a queda">
-                            </div>
+        <section class="row justify-content-center box-marvel text-center mt-3">
 
-                            <div class="card-body card-body-cascade text-center">
-                                <h4 class="card-title"><strong>Homem de Ferro</strong></h4>
-                                <h5 class="blue-text pb-2"><strong>Stark: A Queda</strong></h5>
-                                <p class="card-text">Tony stark ludibriou norman osborn... </p>
-                            </div>
-                        </div>
-                    </a>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 box--marvel">
-                    <a href="deadpool.php">
-                        <div class="card card-cascade wider mt-2 mb-3 shadow-none">
-                            <div class="view view-cascade overlay">
-                                <img class="card-img-top" src="img/deadpool.jpg" alt="Capa deadpool edição 6">
-                            </div>
-                            <div class="card-body card-body-cascade text-center">
-                                <h4 class="card-title"><strong>Deadpool</strong></h4>
-                                <h5 class="blue-text pb-2"><strong>#06 (Fresh Start)</strong></h5>
-                                <p class="card-text">Alguém roubou o coração do Comediante Carmim. literalmente!... </p>
-                            </div>
-                        </div>
-                    </a>
-
-                </div>
-
-
-                <div class="col-12 col-md-4 box--marvel">
-                    <a href="wakanda.php">
-                        <div class="card card-cascade wider mt-2 mb-3 shadow-none">
-                            <div class="view view-cascade overlay">
-                                <img class="card-img-top" src="img/wakanda.jpg" alt="Capa wakanda para sempre">
-                            </div>
-                            <div class="card-body card-body-cascade text-center">
-                                <h4 class="card-title"><strong>Wakanda</strong></h4>
-                                <h5 class="blue-text pb-2"><strong>para Sempre</strong></h5>
-                                <p class="card-text">As maiores guerreiras de Wakanda - Okoye, Ayo e Aneka... </p>
-                            </div>
-                        </div>
-                    </a>
-
-                </div>
+            <div class="col-12 col-md-4">
+                <a href="home-de-ferro.php">
+                    <div class="col-12">
+                        <img class="img-fluid rounded" src="img/homem-de-ferro.jpg" alt="Capa homem de ferro - stark: a queda">
+                        <h4 class="m-1"><strong>Homem de Ferro - Stark: A Queda</strong></h4>
+                        <p class="text-justify m-2">Tony stark ludibriou norman osborn... </p>
+                    </div>
+                </a>
             </div>
 
-            <div class="row mt-3 mb-3">
-                <div class="col-12 col-md-4 mb-3  box--marvel">
-                    <a href="velho-logan.php">
-                        <div class="card-2">
 
-                            <div>
-                                <img class="card-img-top" src="img/velho-logan.jpg" alt="Capa o velho logan">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">O Velho Logan</h4>
-                                <hr>
-                                <p class="card-text">Logan continua em busca de uma cura para seu cada vez pior fator de cura...</p>
+            <div class="col-12 col-md-4">
+                <a href="deadpool.php">
+                    <div class="col-12">
+                        <img class="img-fluid rounded" src="img/deadpool.jpg" alt="Capa deadpool edição 6">
+                        <h4 class="m-1"><strong>Deadpool - #06 (Fresh Start)</strong></h4>
+                        <p class="text-justify m-2">Alguém roubou o coração do Comediante Carmim. literalmente!... </p>
+                    </div>
+                </a>
 
-                            </div>
+            </div>
+
+
+            <div class="col-12 col-md-4">
+                <a href="wakanda.php">
+                    <div class="col-12">
+                        <img class="img-fluid rounded" src="img/wakanda.jpg" alt="Capa wakanda para sempre">
+                        <h4 class="m-1"><strong>Wakanda para Sempre</strong></h4>
+                        <p class="text-justify m-2">As maiores guerreiras de Wakanda - Okoye, Ayo e Aneka... </p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <a href="home-de-ferro.php">
+                        <div class="col-12">
+                            <img class="img-fluid rounded" src="img/shield.jpg" alt="Capa agentes da shield - tiro perfeito">
+                            <h4 class="m-1"><strong>Agentes da SHIELD - Tiro Perfeito</strong></h4>
+                            <p class="text-justify m-2">O agente especial Phil Coulson e sua equipe da S.H.I.E.L.D. reúnem os melhores e mais brilhantes...</p>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="col-12 col-md-4">
+                    <a href="deadpool.php">
+                        <div class="col-12">
+                            <img class="img-fluid rounded" src="img/velho-logan.jpg" alt="Capa o velho logan">
+                            <h4 class="m-1"><strong>O Velho Logan</strong></h4>
+                            <p class="text-justify m-2">Logan continua em busca de uma cura para seu cada vez pior fator de cura...</p>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="col-12 col-md-4">
+                    <a href="wakanda.php">
+                        <div class="col-12">
+                            <img class="img-fluid rounded" src="img/wolverine.jpg" alt="Capa o retorno de wolverine edição 4">
+                            <h4 class="m-1"><strong>O Retorno de Wolverine #04</strong></h4>
+                            <p class="text-justify m-2">A equipe de ex-Vingadores do Homem de Ferro chega ao grande banco de dados do Senhor Sinistro...</p>
                         </div>
                     </a>
                 </div>
-
-                <div class="col-12 col-md-4 mb-3 box--marvel">
-                    <a href="wolverine.php">
-                        <div class="card-2">
-                            <div>
-                                <img class="card-img-top" src="img/wolverine.jpg" alt="Capa o retorno de wolverine edição 4">
-                            </div>
-
-                            <div class="card-body">
-                                <h4 class="card-title">O Retorno de Wolverine #04</h4>
-                                <hr>
-                                <p class="card-text">A equipe de ex-Vingadores do Homem de Ferro chega ao grande banco de dados do Senhor Sinistro...</p>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-12 col-md-4 mb-3 box--marvel">
-                    <a href="shield.php">
-                        <div class="card-2">
-                            <div>
-                                <img class="card-img-top" src="img/shield.jpg" alt="Capa agentes da shield - tiro perfeito">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Agentes da SHIELD - Tiro Perfeito</h4>
-                                <hr>
-                                <p class="card-text">O agente especial Phil Coulson e sua equipe da S.H.I.E.L.D. reúnem os melhores e mais brilhantes operativos para confrontar...</p>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
             </div>
         </section>
     </div>

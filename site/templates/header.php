@@ -45,7 +45,7 @@
                                 <div class="row">
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
                                         <a href="#">
-                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_dark.jpg" alt="Logotipo Dark Horse - Menu">
+                                            <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_ficcao.jpg" alt="Logotipo Ficção Científica - Menu">
                                             <div>Ficção Científica</div>
                                         </a>
 
