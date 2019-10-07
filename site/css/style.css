@@ -19,7 +19,7 @@
 .bar1,
 .bar2,
 .bar3 {
-    display: block;
+    display:block;
     height: 5px;
     background-color: #333;
     margin: 6px 0;
@@ -69,6 +69,11 @@
 
 
 /**BootStrap Alterações*/
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent;
+}
+
+
 .navbar-light .navbar-toggler {
     border: 0;
 }
@@ -146,20 +151,31 @@
 
 /*Home**/
 /**HOME**/
+.nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgb(87, 86, 86);
+    text-decoration: none;
+}
+
 .img-bordas {
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
-.ind-slide {
-    margin-right: 0;
-}
-
-.carousel-indicators li {
-    background-color: #000;
-}
-
-.home h2,
-.home h3 {
+.home h2 {
     font-size: 1.2em;
     font-weight: 700;
 }
@@ -167,7 +183,7 @@
 .home a h2,
 .home a h3 {
     font-weight: 700;
-    color: #000;
+    color: #333;
     text-decoration: none;
 }
 
@@ -215,12 +231,45 @@
     }
 }
 
-.titulo2-news {
-    font-size: 1.0em;
-    text-align: center;
-}
-
-.titulo3-pop {
+h2.titulo1 {
     font-size: 1.2em;
     text-align: center;
+    color: #333;
+    font-weight: bold;
 }
+
+h2.titulo2-news, 
+h3.titulo2-news {
+    font-size: 1.0em;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+h3.titulo3-pop {
+    font-size: 1.0em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-modal {
+    display: block;
+    width: 161px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.fontColor {
+    color: #333;
+}
+
+.linhaHr {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .linhaHr {
+        display: block;
+    }
+}
+

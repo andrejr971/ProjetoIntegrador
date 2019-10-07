@@ -6,6 +6,13 @@
 }
 
 .titulo2 {
+    font-size: 1.0em;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.titulo3 {
+    font-size: 1.3em;
     border-bottom: 1px solid #dee2e6;
     text-align: center;
 }
@@ -18,8 +25,45 @@
     box-shadow: 3px 3px 3px #dee2e6;
 }
 
-.legend {
+.legenda {
     margin-top: -50px;
     margin-left: 90px;
     float: left;
+}
+
+.legenda h3 {
+    font-size: 1.0em;
+}
+
+.secao2 {
+    display: none;
+}
+
+.img-personagens {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.img-person {
+    width: 50px;
+}
+
+.tituloCard {
+    text-align: center;
+}
+
+.escritor {
+    text-align: center;
+    font-size: 1.0em;
+}
+
+@media screen and (max-width: 991px) {
+    .secao2 {
+        display: block;
+    }
+
+    .secao1 {
+        display: none;
+    }
 }
