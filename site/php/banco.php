@@ -124,7 +124,7 @@ $bancoDC = [
         'caminho' => 'img/out1.jpg',
         'desc' => 'Atingido por um raio e banhado por produtos químicos, o perito da Polícia de Central City Barry Allen foi transformado no Homem Mais Rápido do Mundo em um piscar de olhos. Mas há coisas que até mesmo o Flash não consegue vencer na corrida! Depois de anos em busca de uma vingança, um dos mais antigos amigos do herói volta à vida de Barry com inimigos implacáveis e m seu encalço – uma multidão imbatível que parece crescer mais rápido do que o Flash consegue detê-la. E, na prisão de segurança máxima chamada Iron Heights, o adversário mais poderoso do Velocista Escarlate planeja sua fuga, sonha com desforra e se prepara para colocar o herói no gelo… para sempre!',
         'alt' => 'Capa da HQ Flash - Seguindo em Frente - Volume 1',
-        'personagem' => 'Flash',
+        'personagem' => 'Outros',
         'escritor' => 'Manapul, Francis',
         'key' => 'Outros1'
     ],
