@@ -1,0 +1,11 @@
+git clone https://github.com/caiorosseto/ProjetoIntegrador.git //comando para clonar o projeto
+
+acesse a pasta dos arquivos a serem subidos pelo comando cd "nome da pasta"
+
+git add . //preparando para adicionar arquivos
+
+git commit -m "digite sua mensagem" // comando usado para selecionar os arquivos que foram modificados
+
+git push // comando para subir arquivos
+ 
+
