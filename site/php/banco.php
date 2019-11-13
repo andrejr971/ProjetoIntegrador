@@ -2,27 +2,39 @@
 $bancoHome = [
     [
         "id" => 0,
-        "nome" => "Batman # 78"
+        "nome" => "Batman # 78",
+        "caminho" => "autores/andre/img/bat0.jpg",
+        "end" => "autores/andre/personagens.php?personagem=Batman0"
     ],
     [
         "id" => 1,
-        "nome" => "Evento Leviathan # 4"
+        "nome" => "Justiceiro - O Julgamento de Frank Castle",
+        "caminho" => "autores/henrique/img/img03.jpg",
+        "end" => ""
     ],
     [
         "id" => 2,
-        "nome" => "Monstro da Cidade de Gotham # 1"
+        "nome" => "Homem de Ferro - Stark: A Queda",
+        "caminho" => "autores/vinicius/img/homem-de-ferro.jpg",
+        "end" => ""
     ],
     [
         "id" => 3,
-        "nome" => "Rei Thor (2019) # 1"
+        "nome" => "Cara de Unicórnio #1",
+        "caminho" => "autores/carol/img/img01.jpg",
+        "end" => ""
     ],
     [
         "id" => 4,
-        "nome" => "Carnificina Absoluta vs Deadpool (2019) # 2"
+        "nome" => "Matrix",
+        "caminho" => "autores/caio/img/img07.jpg",
+        "end" => ""
     ],
     [
         "id" => 5,
-        "nome" => "O Incrível Homem-Aranha (2018) # 29"
+        "nome" => "Boku no Hero Academia",
+        "caminho" => "autores/wagner/img/wagner-2.jpg",
+        "end" => ""
     ]
 
 ];
@@ -30,7 +42,7 @@ $bancoHome = [
 $bancoDC = [
     'Batman0' => [
         'nome' => 'Batman #78',
-        'caminho' => '../../img/home/pop0.jpg',
+        'caminho' => 'img/bat0.jpg',
         'desc' => 'Na primeira parte de um interlúdio de “Cidade de Bane”, Batman recebe ajuda de um aliado que ele pensava ter perdido para sempre: Mulher-Gato! Ainda se recuperando dos espancamentos que levou de Bane e Flashpoint Batman, o Cavaleiro das Trevas se prepara para retornar a Gotham City, e é Selina Kyle quem detém a chave. Ela sabe como Bane está alimentando o regime dele, e ajudará Batman a fechar a linha de suprimentos - mas primeiro ela precisa moldar o herói atingido.',
         'alt' => 'Capa da HQ Batman edição 78',
         'personagem' => 'Batman',
@@ -84,7 +96,7 @@ $bancoDC = [
     ],
     'Superman0' =>[
         'nome' => 'Evento Leviathan # 4',
-        'caminho' => '../../img/home/pop1.jpg',
+        'caminho' => 'img/super2.jpg',
         'desc' => 'Batman versus Superman! Testemunhe o interrogatório da década em que Bruce Wayne rasga o Super-Homem para encontrar a peça que falta no quebra-cabeça do Leviatã que eles precisam. É uma batalha de inteligência e vontades, à medida que os maiores detetives do universo se reúnem para descobrir o porquê e como o Leviatã antes que seja tarde demais. E quando isso não funcionar ”... chega Lois Lane! Da equipe criativa de Brian Michael Bendis e Alex Maleev, é outro thriller noir totalmente pintado que abrirá uma trilha sangrenta pelo Universo DC.',
         'alt' => 'Capa da HQ Superman - Evento Leviathan Edição 4',
         'personagem' => 'Superman',
@@ -112,7 +124,7 @@ $bancoDC = [
     ],
     'Outros0' => [
         'nome' => 'Monstro da Cidade de Gotham # 1',
-        'caminho' => '../../img/home/pop2.jpg',
+        'caminho' => 'img/out0.jpg',
         'desc' => 'O Leviatã desmontou o SHADE - e isso significa que Frankenstein é mais uma vez um agente livre! Agora ele pode focar em seu ex-mentor, Melmoth, o único mal que escapou. Com coisas ruins acontecendo em todo o Multiverso, essa pode ser a última chance de Frankenstein em acertar as coisas. Claro, Melmoth tem sua própria agenda, e será necessário mais do que um monstro solitário para derrubá-lo. Então Frankenstein vai para Gotham City em busca de aliados e recruta Killer Croc, Lady Clayface, Orca e o vampiro Andrew Bennett. Mas será que essas terríveis criaturas serão suficientes para salvar a humanidade antes que todo o cosmos entre em colapso?',
         'alt' => 'Capa da HQ Monstro da Cidade de Gotham Edição 1',
         'personagem' => 'Outros',
