@@ -33,8 +33,8 @@ $bancoHome = [
     [
         "id" => 5,
         "nome" => "Boku no Hero Academia",
-        "caminho" => "autores/wagner/img/wagner-2.jpg",
-        "end" => ""
+        "caminho" => "autores/wagner/img/boku0.jpg",
+        "end" => "autores/wagner/manga.php?manga=boku"
     ]
 
 ];
@@ -149,6 +149,114 @@ $bancoDC = [
         'escritor' => 'Johns, Geoff',
         'key' => 'Outros2'
     ]
+];
+
+$bancoManga = [
+    'boku' => [
+        'nome' => 'Boku no Hero Academy',
+        'caminho' => 'img/boku0.jpg',
+        'sub' => 'All-Might, vendo que Izuku tem a atitude e o coração
+        de um verdadeiro herói, mesmo sem possuir qualquer poder, resolve passá-lo
+        seus poderes, a fim de torná-lo seu sucessor como o símbolo da paz.',
+        'desc' => 'A quarta temporada de Boku no Hero Academia 4 (My Hero Academia 4) mal estreou no último dia 12 e já terá uma pausa.</p>
+        <p>A informação surgiu já que foram revelados os títulos dos próximos episódios da quarta temporada da adaptação para série anime Boku no Hero Academia, de Kohei Horikoshi, e com eles veio a informação de que o 4ª episódio não será exibido no dia 2 de novembro mas sim na semana seguinte no dia 9 de novembro.A primeira temporada de 13 episódios do anime estreou em abril de 2016, e a segunda de 25 episódios em abril de 2017. A terceira temporada de 25 episódios estreou em abril de 2018. O filme Boku no Hero: Two Heroes estreou no Japão em agosto passado. A franquia está recebendo um segundo filme em dezembro.</p>
+        <p>Em um mundo em que 80% da população nasce com habilidades especiais, denominadas “individualidades”, há o surgimento de super-heróis, que se utilizam do poder para o resgate de pessoas, diminuir o impacto de tragédias naturais e combater o crime. A trama foca-se em Midoriya Izuku, determinado em realizar o sonho de tornar-se um herói, apesar de não ter nascido com nenhuma “individualidade”.</p>',
+        'alt' => 'Capa Boku no Hero',
+        'img0' => 'img/boku2.jpg',
+        'img1' => 'img/boku1.jpg',
+        'img2' => 'img/boku3.jpg',
+        'end' => 'boku'
+    ],
+    'kimetsu' => [
+        'nome' => 'Kimetsu no Yaiba',
+        'caminho' => 'img/kimetsu0.jpg',
+        'sub' => 'Depois de ter sua família massacrada por um demônio,
+        Tanjiro, o filho mais velho, sai em busca de uma cura para sua única irmã
+        sobrevivente do massacre que acidentalmente foi transformada em um demônio.',
+        'desc' => 'Com o fim da primeira temporada de Demon Slayer (Kimetsu no Yaiba), muitos
+        fãs procuraram o mangá pra saber o que irá acontecer na história, mas outros preferem
+        esperar por novos episódios do anime. Só que o episódio 27 na verdade será o filme do
+        arco do trem, que já foi anunciado, mas ainda não tem data de lançamento. </p>
+        <p> O arco “Trem Infinito” (ou Trem Demoníaco) mostra os heróis em um trem, com a
+        participação do Hashira Kyojuro Rengoku, que também usa respiração de fogo. Veja
+        o trailer oficial:
+        <a class="btn btn-link" href="https://www.youtube.com/watch?time_continue=4&v=klsU4erJnEs&feature=emb_logo" target=\'_blank\'>Kimetsu no Yaiba Movie: "Infinity Train".</a></p>
+        <p> O filme ganhou o nome de Gekijouban Kimetsu no Yaiba: Mugen Ressha Hen. Como mostrado
+        no episódio mais recente do anime, o arco irá mostrar o confronto deles contra Enmu,
+        o demônio que recebeu sangue de Muzan e é encarregado de matar Tanjiro Kamado para
+        ascender a sua posição. </p>
+        <p> Por hora os fãs terão de esperar pelo filme, e torcer também pro filme fazer sucesso
+        no Japão e aqui no ocidente. Assim teremos mais episódios do anime na Crunchyroll
+        Brasil. Com mais episódios no futuro, provavelmente o primeiro de uma nova temporada
+        irá receber essa numeração. Por hora os fãs terão de esperar. </p>
+        <p> Demon Slayer (Kimetsu no Yaiba) mostra a história de Tanjiro, que entra para um grupo
+        de extermínio de Onis para ir atrás de Muzan Kibutsuji, o “Oni Alfa” que criou todos
+        os outros, e que acabou transformando a sua irmã Nezuko em um Oni. O anime ganhou
+        muito mais popularidade após o episódio 19, que teve milhares de elogios dos
+        espectadores e fãs por conta do nível da animação do episódio. </p>',
+        'alt' => 'Kimetsu no Yaib',
+        'img0' => 'img/kimetsu1.jpg',
+        'img1' => 'img/kimetsu2.jpg',
+        'img2' => 'img/kimetsu3.jpg',
+        'end' => 'kimetsu'
+    ],
+    'nanatsu' => [
+        'nome' => 'Nanatsu no Taizai',
+        'caminho' => 'img/nanatsu0.jpg',
+        'sub' => 'Uma princesa decide ir atrás dos 7 pecados capitais,
+        pois ela acredita que só eles possuem a força necessária para ajuda-lá a
+        retomar o reino dos Cavaleiros Sagrados que encenaram um golpe de Estado
+        e capturaram o Rei.',
+        'desc' => 'Nanatsu no Taizai é um dos mangás mais populares no Japão, uma vez que
+        cativa milhares de fãs no oriente e no ocidente, porém a história pode ter revelado
+        sua data de fim.</p>
+        <p>Apesar do seu anime fazer bastante sucesso, o fim da história pode chegar antes do
+        que se esperava. A 23ª edição da Weekly Shonen Magazine, da Kodansha, revelou que o
+        mangá de Nanatsu no Taizai chegará ao seu clímax na próxima edição em 15 de maio.</p>
+        <p>O próximo capítulo, o 310º da série, será intitulado “Farewell, The Seven Deadly Sins”
+        (Adeus, The Seven Deadly Sins ).</p>
+        <p>Suzuki afirmou em uma entrevista em agosto na revista Da Vinci da Kadokawa, que ele
+        estava planejando concluir o mangá em um ano, após cerca de 40 volumes de história.
+        Ele declarou que tinha o final planejado desde o início e que planeja dar um final
+        digno de uma revista shounen.</p>
+        <p>O mangaká também revelou que qualquer tipo de continuação do mangá irá depender dos
+        editores da revista Weekly Shonen Magazine e que para o futuro é possível que a sua
+        próxima obra tenha basebol como tema principal.</p>
+        <p>Suzuki lançou o mangá original na Weekly Shonen Magazine em 2012.</p>
+        <p>O primeiro anime de 24 episódios da série foi lançado em 2014 e 2015. Um episódio
+        especial de anime de quatro episódios intitulado The Seven Deadly Sins -Signs of
+        Holy War foi lançado em agosto de 2016. The Seven Deadly Sins: Revival of The
+        Commandments, a segunda série de anime, estreou em janeiro de 2018.</p>
+        <p>O mangá também inspirou o filme The Seven Deadly Sins the Movie: Prisoners of the
+        Sky, que estreou no Japão em agosto passado.</p>',
+        'alt' => 'Capa nanatsu',
+        'img0' => 'img/nanatsu1.jpg',
+        'img1' => 'img/nanatsu3.jpg',
+        'img2' => 'img/nanatsu2.jpg',
+        'end' => 'nanatsu'
+    ],
+    'overlord' => [
+        'nome' => 'Overlord',
+        'caminho' => 'img/overlord0.jpg',
+        'sub' => 'O protagonista é o último membro restante da Guilda de
+        Ainz Ooal Gown. Inicialmente, costumava ser um salaryman, mas ao ser preso
+        no jogo, decide se tornar a lenda do novo mundo.',
+        'desc' => 'Na AnimagiC 2019, o mesmo evento onde vimos a confirmação de Overlord 4,
+        o autor da light novel de Overlord revelou que o 17º volume será o último.</p>
+        <p>Já anteriormente Kugane Maruyama tinha afirmado que poderia terminar a obra mais cedo
+        que o esperado por estar frustrado por encontrar a sua obra a ser distribuída online
+        ilegalmente e que ficava assim desmotivado para continuar.</p>
+        <p>Aparentemente ele vai cumprir a sua promessa e terminar Overlord mesmo com 17 volumes,
+        removendo um volume ao que estava previsto.</p>
+        <p>Overlord é escrita por Kugane Maruyama com arte de so-bin desde 2012 e foi a light novel
+        mais vendida de 2018 com 807.693 cópias vendidas e o seu volume 13 foi o mais vendido
+        com 240.361 unidades vendidas.</p>',
+        'alt' => 'Capa Overlord',
+        'img0' => 'img/overlord1.jpg',
+        'img1' => 'img/overlord3.jpg',
+        'img2' => 'img/overlord2.jpg',
+        'end' => 'overlord'
+    ],
 ];
 
 ?>

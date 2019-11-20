@@ -7,8 +7,6 @@ include('../../templates/header.php');
 
     <div class="container">
         <div class="row">
-
-
             <div class="col-sm">
                 <div class="zoom">
                     <img class="img-responsive" src="images/capa_new.jpg" alt="capa divida entre três hqs de ficção cientifica" />

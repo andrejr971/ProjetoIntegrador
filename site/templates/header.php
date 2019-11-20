@@ -44,7 +44,7 @@
                             <li class="dropdown-item">
                                 <div class="row">
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
-                                        <a href="#">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/caio/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_ficcao.jpg" alt="Logotipo Ficção Científica - Menu">
                                             <div>Ficção Científica</div>
                                         </a>
@@ -72,7 +72,7 @@
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                                        <a href="#">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/wagner/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_manga.jpg" alt="Logotipo Mangá - Menu">
                                             <div>Mangá</div>
                                         </a>
