@@ -16,11 +16,11 @@ include('php/banco.php');
                     <div class="col">
                         <a href="#" class="link-slide" data-toggle="modal" data-target="#new2">
                             <div class="row">
-                                <div class="col-5">
-                                    <img src="img/home/news1.jpg" class="d-block w-100 img-bordas" alt="">
+                                <div class="col-4">
+                                    <img src="autores/andre/img/new0.jpg" class="d-block w-100 img-bordas" alt="">
                                 </div>
                                 <div class="col">
-                                    <h2 class="titulo2-news">Os Cavaleiros das Trevas: livro da Editora Skript aborda 250 versões diferentes do Batman</h2>
+                                    <h2 class="titulo2-news">Esquadrão Suicida | James Gunn revela foto do roteiro e indica trilha sonora</h2>
                                 </div>
                             </div>
                         </a>
@@ -33,11 +33,11 @@ include('php/banco.php');
                     <div class="col">
                         <a href="#" class="link-slide" data-toggle="modal" data-target="#new3">
                             <div class="row">
-                                <div class="col-5">
-                                    <img src="img/home/news2.jpg" class="d-block w-100 img-bordas" alt="">
+                                <div class="col-4">
+                                    <img src="autores/andre/img/new1.jpg" class="d-block w-100 img-bordas" alt="">
                                 </div>
                                 <div class="col">
-                                    <h2 class="titulo2-news">Niterói ganha exposição de quadrinhistas locais</h2>
+                                    <h2 class="titulo2-news">DC divulga nova linha do tempo oficial</h2>
                                 </div>
                             </div>
                         </a>
@@ -50,11 +50,11 @@ include('php/banco.php');
                     <div class="col">
                         <a href="#" class="link-slide" data-toggle="modal" data-target="#new4">
                             <div class="row">
-                                <div class="col-5">
-                                    <img src="img/home/news3.jpg" class="d-block w-100 img-bordas" alt="">
+                                <div class="col-4">
+                                    <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                                 </div>
                                 <div class="col">
-                                    <h2 class="titulo2-news">Coleção do Conan volta ao mercado em parceria entre Panini e Salvat</h2>
+                                    <h2 class="titulo2-news">Descoberto o possível novo Batman da DC Comics</h2>
                                 </div>
                             </div>
                         </a>
@@ -84,10 +84,10 @@ include('php/banco.php');
                         foreach ($bancoHome as $id => $nomes) {
                             ?>
                             <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-1 mt-1">
-                                <a href="#" class="link-slide" data-toggle="modal" data-target="#quad<?php echo $id; ?>">
+                                <a href="<?php echo $bancoHome[$id]['end']; ?>">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <img src="img/home/pop<?php echo $id; ?>.jpg" class="d-block w-100 img-bordas" alt="">
+                                            <img src="<?php echo $bancoHome[$id]['caminho']; ?>" class="d-block w-100 img-bordas" alt="">
                                         </div>
                                         <div class="col-sm-6">
                                             <h3 class="titulo3-pop"><?php echo $bancoHome[$id]['nome']; ?></h3>
@@ -111,10 +111,10 @@ include('php/banco.php');
                         foreach ($contRand as $contador) {
                             ?>
                             <div class="col-6 col-sm-6 col-md-6 col-lg-6 mb-1 mt-1">
-                                <a href="#" class="link-slide" data-toggle="modal" data-target="#quad<?php echo $contador; ?>">
+                                <a href="<?php echo $bancoHome[$contador]['end']; ?>">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <img src="img/home/pop<?php echo $contador; ?>.jpg" class="d-block w-100 img-bordas" alt="">
+                                            <img src="<?php echo $bancoHome[$contador]['caminho']; ?>" class="d-block w-100 img-bordas" alt="">
                                         </div>
                                         <div class="col-sm-6">
                                             <h3 class="titulo3-pop"><?php echo $bancoHome[$contador]['nome']; ?></h3>
@@ -141,7 +141,7 @@ include('php/banco.php');
                     <a href="#" class="link-slide" data-toggle="modal" data-target="#new4">
                         <div class="row m-1">
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="img/home/news3.jpg" class="d-block w-100 img-bordas" alt="">
+                                <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                             </div>
                             <div class="col">
                                 <h3 class="titulo2-news">Coleção do Conan volta ao mercado em parceria entre Panini e Salvat</h3>
@@ -155,7 +155,7 @@ include('php/banco.php');
                     <a href="#" class="link-slide" data-toggle="modal" data-target="#new8">
                         <div class="row m-1">
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="img/home/news6.jpg" class="d-block w-100 img-bordas" alt="">
+                                <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                             </div>
                             <div class="col">
                                 <h3 class="titulo2-news">Brad Barron, personagem da Sergio Bonelli Editore, chega ao Brasil pela Graphite Editora</h3>
@@ -169,7 +169,7 @@ include('php/banco.php');
                 <a href="#" class="link-slide" data-toggle="modal" data-target="#new12">
                         <div class="row m-1">
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="img/home/news9.jpg" class="d-block w-100 img-bordas" alt="">
+                                <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                             </div>
                             <div class="col">
                                 <h3 class="titulo2-news">Panini inicia a publicação dos Novos Deuses de Jack Kirby.</h3>
@@ -192,7 +192,7 @@ include('php/banco.php');
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
                         <a href="#" data-toggle="modal" data-target="#noticia1">
-                            <img src="img/home/news10.jpg" class="d-block w-100 img-bordas" alt="">
+                            <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                         </a>
                     </div>
                     <div class="col">
@@ -207,7 +207,7 @@ include('php/banco.php');
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
                         <a href="#" data-toggle="modal" data-target="#noticia2">
-                            <img src="img/home/news11.jpg" class="d-block w-100 img-bordas" alt="">
+                            <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                         </a>
                     </div>
                     <div class="col">
@@ -224,7 +224,7 @@ include('php/banco.php');
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
                         <a href="#" data-toggle="modal" data-target="#noticia3">
-                            <img src="img/home/news12.jpg" class="d-block w-100 img-bordas" alt="">
+                            <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                         </a>
                     </div>
                     <div class="col">
@@ -239,7 +239,7 @@ include('php/banco.php');
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
                         <a href="#" data-toggle="modal" data-target="#noticia4">
-                            <img src="img/home/news13.jpg" class="d-block w-100 img-bordas" alt="">
+                            <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                         </a>
                     </div>
                     <div class="col">

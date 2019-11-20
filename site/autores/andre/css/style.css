@@ -67,3 +67,8 @@
         display: none;
     }
 }
+
+a.hoverPerson div.card:hover {
+    background-color: #333;
+    color: #fff;
+}
