@@ -1,14 +1,12 @@
 <?php
-    include ('../../templates/header.php');
-    //Incluido o menu de navegação
+include('../../templates/header.php');
+include('banco.php');
+//Incluido o menu de navegação
 ?>
 <main>
     <div class="container">
-
-
         <section>
             <h2 class="text-center">Marvel</h2>
-
             <div class="row">
                 <div class="col-12">
                     <div class="card mt-2 mb-3">
@@ -24,12 +22,11 @@
                 <div class="col-12">
                     <nav class="">
                         <ul class="nav nav-pills flex-column flex-sm-row justify-content-center">
-                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary mb-md-3" href="deadpool.php">Deadpool</a></li>
-                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="home-de-ferro.php">Homem de Ferro</a></li>
-                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="wakanda.php">Wakanda</a></li>
-                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="velho-logan.php">Logan</a></li>
-                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="wolverine.php">Wolverine</a></li>
-                            <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="shield.php">Shield</a></li>
+
+                            <?php foreach (Posts('aleatorio') as $key => $value) { ?>
+                                <li class=""><a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary mb-md-3" href="artigo.php?id=<?php echo $value['id']; ?>"><?php echo $value['titulo'] ?></a>
+                                </li>
+                            <?php } ?>
                         </ul>
                     </nav>
                 </div>
@@ -38,81 +35,25 @@
 
         <section class="row justify-content-center box-marvel text-center mt-3">
 
-            <div class="col-12 col-md-4">
-                <a href="home-de-ferro.php">
-                    <div class="col-12">
-                        <img class="img-fluid rounded" src="img/homem-de-ferro.jpg" alt="Capa homem de ferro - stark: a queda">
-                        <h4 class="m-1"><strong>Homem de Ferro - Stark: A Queda</strong></h4>
-                        <p class="text-justify m-2">Tony stark ludibriou norman osborn... </p>
-                    </div>
-                </a>
-            </div>
 
-
-            <div class="col-12 col-md-4">
-                <a href="deadpool.php">
-                    <div class="col-12">
-                        <img class="img-fluid rounded" src="img/deadpool.jpg" alt="Capa deadpool edição 6">
-                        <h4 class="m-1"><strong>Deadpool - #06 (Fresh Start)</strong></h4>
-                        <p class="text-justify m-2">Alguém roubou o coração do Comediante Carmim. literalmente!... </p>
-                    </div>
-                </a>
-
-            </div>
-
-
-            <div class="col-12 col-md-4">
-                <a href="wakanda.php">
-                    <div class="col-12">
-                        <img class="img-fluid rounded" src="img/wakanda.jpg" alt="Capa wakanda para sempre">
-                        <h4 class="m-1"><strong>Wakanda para Sempre</strong></h4>
-                        <p class="text-justify m-2">As maiores guerreiras de Wakanda - Okoye, Ayo e Aneka... </p>
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <a href="home-de-ferro.php">
-                        <div class="col-12">
-                            <img class="img-fluid rounded" src="img/shield.jpg" alt="Capa agentes da shield - tiro perfeito">
-                            <h4 class="m-1"><strong>Agentes da SHIELD - Tiro Perfeito</strong></h4>
-                            <p class="text-justify m-2">O agente especial Phil Coulson e sua equipe da S.H.I.E.L.D. reúnem os melhores e mais brilhantes...</p>
-                        </div>
-                    </a>
-
-                </div>
-
+            <?php foreach (Posts() as $key => $value) { ?>
 
                 <div class="col-12 col-md-4">
-                    <a href="deadpool.php">
+                    <a href="artigo.php?id=<?php echo $value['id']; ?>">
                         <div class="col-12">
-                            <img class="img-fluid rounded" src="img/velho-logan.jpg" alt="Capa o velho logan">
-                            <h4 class="m-1"><strong>O Velho Logan</strong></h4>
-                            <p class="text-justify m-2">Logan continua em busca de uma cura para seu cada vez pior fator de cura...</p>
-                        </div>
-                    </a>
-
-                </div>
-
-
-                <div class="col-12 col-md-4">
-                    <a href="wakanda.php">
-                        <div class="col-12">
-                            <img class="img-fluid rounded" src="img/wolverine.jpg" alt="Capa o retorno de wolverine edição 4">
-                            <h4 class="m-1"><strong>O Retorno de Wolverine #04</strong></h4>
-                            <p class="text-justify m-2">A equipe de ex-Vingadores do Homem de Ferro chega ao grande banco de dados do Senhor Sinistro...</p>
+                            <img class="img-fluid rounded" src="<?php echo $value['imagem']; ?>" alt="Capa homem de ferro - stark: a queda">
+                            <h4 class="m-1"><strong><?php echo $value['titulo']; ?></strong></h4>
+                            <p class="text-justify m-2"><?php echo substr($value['texto'], 0, 100) . '...'; ?></p>
                         </div>
                     </a>
                 </div>
-            </div>
+            <?php } ?>
         </section>
     </div>
 
 </main>
 
 <?php
-    include ('../../templates/footer.php');
-    //Incluindo o rodapé
+include('../../templates/footer.php');
+//Incluindo o rodapé
 ?>

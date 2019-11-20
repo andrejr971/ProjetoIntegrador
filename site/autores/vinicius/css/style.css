@@ -24,3 +24,19 @@ font-size: 1rem;
 a.flex-sm-fill.text-sm-center.nav-link.btn.btn-outline-secondary {
     margin: 5px;
 }
+
+.marvel-img {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 300px) {
+    .marvel-title {
+        position: static;
+        transform: none;
+        text-align: center;
+        padding: 0;
+        background-color: transparent;
+    }
+}

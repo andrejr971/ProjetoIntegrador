@@ -1,31 +1,40 @@
 <?php
-    include ('../../templates/header.php');
-    //Incluido o menu de navegação
+include('../../templates/header.php');
+include('banco.php');
 ?>
 <main>
     <div class="container">
-        <article>
+        <article class="artigos--marvel">
             <div class="row m-3">
                 <div class="col-12 col-md-8 text-center">
-                    <img class="img-fluid rounded shadow-lg p-1 m-3" src="img/post-1.jpg" alt="Capa velho logan">
-                    <div class="bg-dark rounded p-1 m-1 text-white">
-                        <h1>Homem de Ferro - Stark: A Queda</h1>
+
+                    <div class="marvel-img">
+                        <img class="img-fluid rounded shadow-lg p-1 m-3 mx-auto d-block" src="<?php echo $imagem; ?>" alt="">
+                        <h1 class="marvel-title"><?php echo $titulo; ?></h1>
                     </div>
-                    <p class="text-justify">Tony stark ludibriou norman osborn, o humilhou ao vivo na televisão e manteve
-                        a salvo o banco de dados que lista as identidades secretas de super-humanos. Mas,
-                        ao fazer isso, ele perdeu tudo: sua armadura, seus poderes e até mesmo sua mente.
-                        Agora, totalmente indefeso, em coma e com sua vida desmantelada, tony dependerá
-                        de seus últimos traços de determinação e um grupo de amigos – incluindo thor,
-                        capitão américa, máquina de combate, doutor estranho, pepper potts e maria hill
-                        – para impedir que ele perca tudo.</p>
+                    <p class="text-justify"><?php echo $texto; ?></p>
                 </div>
                 <div class="col-12 col-md-4">
                     <aside class="text-center">
-                        <div class="bg-dark rounded p-1 m-1 text-white">
+                        <div class="text-dark">
                             <h2>Veja Também</h2>
                         </div>
-                        <img class="img-fluid rounded" src="img/veja-tambem-1.jpg" alt="">
-                        <h2>O Velho Logan #37</h2>
+
+                        <div class="row">
+                            <?php foreach (Posts('aleatorio') as $key => $value) { ?>
+                                <?php if ($value['id'] != $_GET['id']) { ?>
+                                    <div class="col-12 col-md-6">
+
+                                        <a href="artigo.php?id=<?php echo $value['id']; ?>">
+                                            <img class="img-fluid rounded" src="<?php echo $value['imagem']; ?>" alt="<?php echo $titulo; ?>">
+                                        </a>
+                                        <a href="artigo.php?id=<?php echo $value['id']; ?>">
+                                            <h2><?php echo $value['titulo']; ?></h2>
+                                        </a>
+                                    </div>
+                            <?php }
+                            } ?>
+                        </div>
                     </aside>
                 </div>
             </div>
@@ -36,6 +45,5 @@
 </main>
 
 <?php
-    include ('../../templates/footer.php');
-    //Incluindo o rodapé
+include('../../templates/footer.php');
 ?>
