@@ -79,7 +79,7 @@
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center">
-                                        <a href="#">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/henrique/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_anti.jpg" alt="Logotipo Anti-Heróis - Menu">
                                             <div>Anti-Heróis</div>
                                         </a>

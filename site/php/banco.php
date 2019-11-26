@@ -10,7 +10,7 @@ $bancoHome = [
         "id" => 1,
         "nome" => "Justiceiro - O Julgamento de Frank Castle",
         "caminho" => "autores/henrique/img/img03.jpg",
-        "end" => ""
+        "end" => "autores/henrique/personagens.php?persona=justiceiro"
     ],
     [
         "id" => 2,
@@ -257,6 +257,155 @@ $bancoManga = [
         'img2' => 'img/overlord2.jpg',
         'end' => 'overlord'
     ],
+];
+
+$bancoAnti = [
+    'justiceiro' => [
+        'titulo' => 'Justiceiro',
+        'p1' => 'Frank Castle era um soldado condecorado que teve sua mulher e seus dois filhos mortos em um tiroteio entre criminosos. Castle então declarou guerra ao mundo do crime. Adotou um uniforme com uma caveira e resolveu eliminar tantos criminosos quanto possível. Isso o colocou em confronto direto com diversos super-heróis que consideram errados os seus métodos e acreditam que é errado tirar a vida mesmo dos criminosos. A guerra de Frank Castle durou anos, até que ele foi morto em uma aventura no meio da década de 1990 e, em seguida, ressucitado durante algum tempo como um morto-vivo. Mas essa fase foi logo abandonada e Castle voltou à sua condição normal, em aventuras cada vez mais violentas onde passou a enfrentar a máfia russa, entre outras. Atualmente, Castle faz também parte do grupo Thunderbolts, liderado pelo Hulk Vermelho.',
+        'p2' => 'Poderes e habilidades: Castle é um ótimo estrategista e conhece tudo sobre armas e seu uso. É violento e implacável contra seus inimigos.',
+        'img1' => 'img/img03.jpg',
+        'img2' => 'img/img09.jpg',
+        'tabela' => [
+            'linha1' => [
+                'titulo' => 'Complete Colection',
+                'ano' => '15 Set 2016',
+                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+            ],
+            'linha2' => [
+                'titulo' => 'Antologia',
+                'ano' => '26 fev 2018',
+                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+            ],
+            'linha3' => [
+                'titulo' => 'Pecado Original',
+                'ano' => '03 abr 2019',
+                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+            ],
+            'linha4' => [
+                'titulo' => 'Deadpool Classic Omnibus',
+                'ano' => '19 jan 2016',
+                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+            ]
+        ]
+    ],
+    'wolverine' => [
+        'titulo' => 'Wolverine',
+        'p1' => 'foi revelado que ele nasceu no Canadá com poderes mutantes no século 19, com garras de ossos que saltam de suas mãos e um elevado fator de cura que o permite sobreviver aos piores ferimentos e faz com que envelheça lentamente. Batizado de James Howlett, ele não era realmente filho do marido de sua mãe, mas, sim,  o filho ilegítimo de Thomas Logan, guarda-caça da rica propriedade em que nasceu. Após matar acidentalmente o pai, o menino fugiu e adotou o nome de Logan. Sua natureza violenta o colocou em inúmeros conflitos e confusões ao longo das próximas décadas. Entre outras aventuras, ele lutou ao lado do Capitão América durante a Segunda Guerra Mundial e foi agente da CIA. Logan se tornou agente do governo canadense e foi cobaia em um experimento que revestiu seus ossos com Adamantium – o metal mais duro e resistente já criado – e eliminou suas memórias, motivo pelo qual passou anos sem recordar seu passado. Nesse período, ele enfrentou o Hulk e o mitológico Wendigo, um monstro canibalesco que habita as florestas canadenses. Pouco tempo depois, foi recrutado pelo Professor Charles Xavier para se juntar aos X-Men, equipe da qual participaria nos anos seguintes e com a qual teve inúmeras aventuras.',
+        'p2' => 'Poderes e habilidades: Além de suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente – o que o torna praticamente imortal -; e tem diversas características animais, como sentidos muito aguçados. No Universo Marvel, provavelmente não existe personagem mais perigoso.',
+        'img1' => 'img/img04.jpg',
+        'img2' => 'img/img10.jpg',
+        'tabela' => [
+            'linha1' => [
+                'titulo' => 'Complete Colection',
+                'ano' => '15 Set 2016',
+                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+            ],
+            'linha2' => [
+                'titulo' => 'Antologia',
+                'ano' => '26 fev 2018',
+                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+            ],
+            'linha3' => [
+                'titulo' => 'Pecado Original',
+                'ano' => '03 abr 2019',
+                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+            ],
+            'linha4' => [
+                'titulo' => 'Deadpool Classic Omnibus',
+                'ano' => '19 jan 2016',
+                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+            ]
+        ]
+    ],
+    'mulher_gato' => [
+        'titulo' => 'Mulher Gato',
+        'p1' => 'Sua mãe, Maria Kyle, era dada à putaria e à agressividade, batia nela e na sua irmã mais nova, Magdalena, quando eram pequenas. Não satisfeita pela porrada que dava às duas garotas, suicidou-se. Seu pai, um imprestável desempregado e álcoolico, embebedou-se até à morte, não muito depois da morte de Maria.',
+        'p2' => 'Começou a assaltar lojas de jóias e para se defender da polícia, juntou-se ao Mestre Bruce Lee que a instruiu nas Artes Marciais milenares da China. Um ex-campião de Boxe, chamado Ted Grant, ensinou-se a lutar boxe. Por uns tempos, foi a maior ladra de Gotham City, assaltando tudo quanto era loja. Havia a lenda que a Gata dava o dinheiro pros pobres, mas é tudo mito.</p><p class="text-justify">Órfã desde menina, Selina Kyle passou algum tempo em um orfanato feminino, do qual eventualmente fugiu. Sua inspiração para se tornar a Mulher-Gato teria se originado ao observar o próprio Batman, personagem com o qual acabou tendo um romance, que não durou. Após anos atuando como ladra em Gotham City e no mundo, Selina resolveu atuar como protetora do Eastside, bairro em que viveu e trabalhou como prostituta após fugir do orfanato. Atualmente, a anti-heroína é responsável também pela morte do vilão Máscara Negra, movida por vingança, deixando claro que a personagem não possui os mesmos valores que o Batman e seus demais aliados. Também se uniu as psicopatas Hera Venenosa e Arlequina, e andam trabalhando juntas.',
+        'img1' => 'img/img01.jpg',
+        'img2' => 'img/img07.jpg',
+        'tabela' => [
+            'linha1' => [
+                'titulo' => 'Complete Colection',
+                'ano' => '15 Set 2016',
+                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+            ],
+            'linha2' => [
+                'titulo' => 'Antologia',
+                'ano' => '26 fev 2018',
+                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+            ],
+            'linha3' => [
+                'titulo' => 'Pecado Original',
+                'ano' => '03 abr 2019',
+                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+            ],
+            'linha4' => [
+                'titulo' => 'Deadpool Classic Omnibus',
+                'ano' => '19 jan 2016',
+                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+            ]
+        ]
+    ],
+    'lobo' => [
+        'titulo' => 'Lobo',
+        'p1' => 'Lobo é uma das figuras mais carismáticas da DC Comics, mas um dos mais polêmicos. Assim como a Marvel tem um personagem extremamente violento, sarcástico, irreverente e carregado de humor negro (Deadpool), a DC tem o Lobo.
+        Lobo nasceu há 400 anos no planeta Czárnia. Seu nome deriva de um dialeto Khúndio, cujo significado é "aquele que arranca suas tripas e gargalha de alegria com isso". Esse planeta era um modelo de paz na galáxia.',
+        'p2' => 'Como uma maldição ou um jogo do destino, Lobo era totalmente diferente de seus compatriotas. Mal nasceu, já arrancou os dedos da parteira e assassinou seus médicos. Incontrolável e indestrutível como todo czarniano, até os 18 anos praticou todo tipo de vandalismo e de assassinatos em Czárnia. A História dos czarnianos e seu planeta se encerrou quando Lobo criou um enxame de microscópicos escorpiões voadores, os quais extinguiram toda a vida no planeta, o que fez com que ele se tornasse o último czarniano vivo.',
+        'img1' => 'img/img05.jpg',
+        'img2' => 'img/img08.jpg',
+        'tabela' => [
+            'linha1' => [
+                'titulo' => 'Complete Colection',
+                'ano' => '15 Set 2016',
+                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+            ],
+            'linha2' => [
+                'titulo' => 'Antologia',
+                'ano' => '26 fev 2018',
+                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+            ],
+            'linha3' => [
+                'titulo' => 'Pecado Original',
+                'ano' => '03 abr 2019',
+                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+            ],
+            'linha4' => [
+                'titulo' => 'Deadpool Classic Omnibus',
+                'ano' => '19 jan 2016',
+                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+            ]
+        ]
+    ],
+    'deadpool' => [
+        'titulo' => 'Deadpool',
+        'p1' => 'Deadpool (Wade Winston Wilson) é um personagem fictício do universo Marvel , que atua geralmente como anti-herói e ocasionalmente como vilão. Deadpool, cujo nome verdadeiro é Wade Winston Wilson, é um mercenário canadense marcado por ser falastrão (ao ponto de ser também conhecido por "Mercenário Tagarela") e violento. Tem também o fator de cura que o faz sobreviver aos piores ferimentos.',
+        'p2' => 'Wade Wilson (Deadpool) possui o segundo melhor fator de cura da Marvel, sendo o primeiro lugar o Hulk. A capacidade foi posta a prova quando Wade teve seu coração arrancado por Ajax, um assistente do Departamento H onde Wade fora mantido preso, então seu fator de cura entrou em ação e regenerou seu coração por completo, porém seu fator de cura lhe propiciou séria instabilidade mental e amnésia, o que faz com que seu comportamento seja imprevisível. Recentemente ele foi curado de seus problemas mentais, mas continua com o humor sarcástico e comportamento imprevisível.',
+        'img1' => 'img/img02.jpg',
+        'img2' => 'img/img11.jpg',
+        'tabela' => [
+            'linha1' => [
+                'titulo' => 'Complete Colection',
+                'ano' => '15 Set 2016',
+                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+            ],
+            'linha2' => [
+                'titulo' => 'Antologia',
+                'ano' => '26 fev 2018',
+                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+            ],
+            'linha3' => [
+                'titulo' => 'Pecado Original',
+                'ano' => '03 abr 2019',
+                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+            ],
+            'linha4' => [
+                'titulo' => 'Deadpool Classic Omnibus',
+                'ano' => '19 jan 2016',
+                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+            ]
+        ]
+    ]
 ];
 
 ?>
