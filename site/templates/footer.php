@@ -6,12 +6,12 @@
 <footer class="footer bg-dark">
         <div class="container">
             <div class="row p-3">
-                <div class="col-4 col-md-2"><a href="#">Ficção Científica</a></div>
-                <div class="col-4 col-md-2"><a href="#">Marvel</a></div>
-                <div class="col-4 col-md-2"><a href="#">DC</a></div>
-                <div class="col-4 col-md-2"><a href="#">LGBTQ+</a></div>
-                <div class="col-4 col-md-2"><a href="#">Mangá</a></div>
-                <div class="col-4 col-md-2"><a href="#">Anti-Heróis</a></div>
+                <div class="col-4 col-md-2"><a href="<?php echo !$resultado ? "" : "../../"; ?>autores/caio/index.php">Ficção Científica</a></div>
+                <div class="col-4 col-md-2"><a href="<?php echo !$resultado ? "" : "../../"; ?>autores/vinicius/index.php">Marvel</a></div>
+                <div class="col-4 col-md-2"><a href="<?php echo !$resultado ? "" : "../../"; ?>autores/andre/index.php">DC</a></div>
+                <div class="col-4 col-md-2"><a href="<?php echo !$resultado ? "" : "../../"; ?>autores/carol/index.php">LGBTQ+</a></div>
+                <div class="col-4 col-md-2"><a href="<?php echo !$resultado ? "" : "../../"; ?>autores/wagner/index.php">Mangá</a></div>
+                <div class="col-4 col-md-2"><a href="<?php echo !$resultado ? "" : "../../"; ?>autores/henrique/index.php">Anti-Heróis</a></div>
             </div>
 
             <div class="container">

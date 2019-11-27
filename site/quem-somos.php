@@ -18,9 +18,9 @@
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">André Gonçalves</h4>
                                     <small>Coder</small>
-                                    <p>RA: <strong>2650831913004</strong></p>
+                                    <p>RA: <strong>2650831913031</strong></p>
                                     <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <p>Sou um universitário e estou cursando segundo semestre de Sistema para Internet, na FATEC de SR, tenho 21 anos, solteiro, cristão e gosto de programar</p>
                                     <h4>Áreas</h4>
                                     <div><a href="index.php">Home</a></div>
                                     <div><a href="autores/andre/index.php">DC</a></div>
@@ -93,7 +93,8 @@
                                     <small>Coder</small>
                                     <p>RA: <strong>2650831913004</strong></p>
                                     <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <p>Apaixonado por novas tecnologias e buscando ser um full stack.</p>
+                                    <p>Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema. - Thales Valentim</p>
                                     <h4>Áreas</h4>
                                     <div><a href="quem-somos.php">Quem Somos</a></div>
                                     <div><a href="autores/vinicius/index.php">Marvel</a></div>

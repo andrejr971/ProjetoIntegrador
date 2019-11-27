@@ -83,7 +83,7 @@ function verificaCss()
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
-                                        <a href="#<?php echo !$resultado ? "" : "../../"; ?>autores/carol/index.php">
+                                        <a href="<?php echo !$resultado ? "" : "../../"; ?>autores/carol/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../"; ?>img/bg_lgbt.jpg" alt="Logotipo LGBT - Menu">
                                             <div>LGBTQ+</div>
                                         </a>
@@ -104,8 +104,6 @@ function verificaCss()
                                     </div>
                                 </div>
                             </li>
-
-
                         </ul>
                     <li class="nav-item"><a href="<?php echo !$resultado ? "" : "../../"; ?>contato.php" class="nav-link">Contato</a></li>
                     <li class="nav-item"><a href="<?php echo !$resultado ? "" : "../../"; ?>quem-somos.php" class="nav-link">Quem Somos</a></li>
