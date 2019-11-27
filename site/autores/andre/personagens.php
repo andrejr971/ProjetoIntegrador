@@ -77,6 +77,5 @@ include('php/config.php');
 </div>
 
 <?php
-include('../../templates/modalHome.php');
 include('../../templates/footer.php');
 ?>

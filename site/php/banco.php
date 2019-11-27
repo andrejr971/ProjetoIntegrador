@@ -408,4 +408,31 @@ $bancoAnti = [
     ]
 ];
 
+$bancoNoticia = [
+    'new1' => [
+        'titulo' => 'Esquadrão Suicida | James Gunn revela foto do roteiro e indica trilha sonora',
+        'img' => 'img/new0.jpg',
+        'corpo' => ' <p>O diretor James Gunn compartilhou em seu Instagram uma foto do roteiro de Esquadrão Suicida, já criando expectativas para a trilha sonora do longa usando a frase da música "Blitzkrieg Bop", do Ramones.</p>
+            <p>Nas redes sociais, a atriz Mayling Ng compartilhou uma foto ao lado de Peter Capaldi, na qual os dois integrantes do elenco são vistos no que parece ser um estúdio, indicando a proximidade do início de filmagens.</p>
+            <p>O novo Esquadrão Suicida deve se inspirar nas HQs do grupo na década de 1980, escritas por Jon Ostrander e Kim Yale e deve contar com um novo elenco de vilões. O lançamento é previsto para em 6 de agosto de 2021.</p>',
+        'referencia' => 'https://www.omelete.com.br/dc-comics/esquadrao-suicida-james-gunn-revela-foto-do-roteiro-e-indica-trilha-sonora'
+    ],
+    'new2' => [
+        'titulo' => 'DC divulga nova linha do tempo oficial',
+        'img' => 'img/new1.jpg',
+        'corpo' => '<p>Mudança estabelece Mulher-Maravilha como primeira heroína da editora.</p>
+            <p>Durante a New York Comic-Con 2019, a DC anunciou que lançará uma nova linha do tempo oficial que encaixe melhor as histórias da editora. Dan DiDio, editor-executivo da DC, explicou melhor as mudanças, que estabelecem a Mulher-Maravilha como ponto de partida para o universo heroico da editora.</p>
+            <p>De acordo com DiDio, a chegada de Diana aos Estados Unidos, antes da Segunda Guerra Mundial, estabelece a camada Primeira Geração de Super-Heróis. A segunda, chamada de Era Espacial, é marcada pela primeira aparição do Superman. A Terceira Geração é a Era das Crises e aborda as histórias publicadas entre Crise nas Infinitas Terras, publicada originalmente em 1985, e Ponto de Ignição, de 2011. Atualmente, a editora está na fase Flashpoint.</p>
+            <p>Vale lembrar que a minissérie Doomsday Clock, de Geoff Johns e Gary Frank, mostra a inclusão do universo Watchmen, criado por Alan Moore, ao cânone oficial da DC. Na história, o Batman investiga as constantes mudanças nos multiversos da editora, que podem ou não ter o envolvimento do Doutor Manhattan.Especula-se que, ao fim das doze edições, em dezembro, a nova timelineestará plenamente estabelecida.</p>',
+        'referencia' => 'https://www.omelete.com.br/dc-comics/dc-divulga-nova-timeline-oficial'
+    ],
+    'new3' => [
+        'titulo' => 'Descoberto o possível novo Batman da DC Comics',
+        'img' => 'img/new2.jpg',
+        'corpo' => '<p>A nova era do Batman na DC pode trazer mudanças significativas. Rumores recentes apontam para uma mudança na identidade do herói, que deixará de ser Bruce Wayne para ser Luke Fox, o atual Batwing.</p>
+                <p>Para quem não conhece, Luke Fox é filho de Lucius Fox, antigo colaborador das Empresas Wayne e grande aliado do Batman. Um gênio, o personagem acabou se tornando um membro importante da “família Batman” virando o herói Batwing. Porém, ao que tudo indica, seu papel na DC deve aumentar em breve.</p>',
+        'referencia' => 'https://observatoriodocinema.bol.uol.com.br/artigos/2019/10/descoberto-o-possivel-novo-batman-da-dc-comics'
+    ]
+];
+
 ?>

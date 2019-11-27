@@ -65,7 +65,7 @@
                                     </div>
 
                                     <div class="col-6 col-md-4 col-lg-2 text-center mb-2">
-                                        <a href="#">
+                                        <a href="<?php echo !$resultado ? "" : "../../" ;?>autores/carol/index.php">
                                             <img class="img-fluid" src="<?php echo !$resultado ? "" : "../../" ;?>img/bg_lgbt.jpg" alt="Logotipo LGBT - Menu">
                                             <div>LGBTQ+</div>
                                         </a>
