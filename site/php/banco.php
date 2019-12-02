@@ -16,7 +16,7 @@ $bancoHome = [
         "id" => 2,
         "nome" => "Homem de Ferro - Stark: A Queda",
         "caminho" => "autores/vinicius/img/homem-de-ferro.jpg",
-        "end" => ""
+        "end" => "autores/vinicius/artigo.php?id=0"
     ],
     [
         "id" => 3,
