@@ -41,7 +41,7 @@ include('banco.php');
                 <div class="col-12 col-md-4">
                     <a href="artigo.php?id=<?php echo $value['id']; ?>">
                         <div class="col-12">
-                            <img class="img-fluid rounded" src="<?php echo $value['imagem']; ?>" alt="Capa homem de ferro - stark: a queda">
+                            <img class="img-fluid rounded" src="<?php echo $value['imagem']; ?>" alt="Capa <?php echo $value['titulo']; ?>">
                             <h4 class="m-1"><strong><?php echo $value['titulo']; ?></strong></h4>
                             <p class="text-justify m-2"><?php echo substr($value['texto'], 0, 100) . '...'; ?></p>
                         </div>

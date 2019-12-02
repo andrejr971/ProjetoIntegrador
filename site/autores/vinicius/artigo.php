@@ -9,7 +9,7 @@ include('banco.php');
                 <div class="col-12 col-md-8 text-center">
 
                     <div class="marvel-img">
-                        <img class="img-fluid rounded shadow-lg p-1 m-3 mx-auto d-block" src="<?php echo $imagem; ?>" alt="">
+                        <img class="img-fluid rounded shadow-lg p-1 m-3 mx-auto d-block" src="<?php echo $imagem; ?>" alt="Capa <?php echo $value['titulo']; ?>">
                         <h1 class="marvel-title"><?php echo $titulo; ?></h1>
                     </div>
                     <p class="text-justify"><?php echo $texto; ?></p>
@@ -26,7 +26,7 @@ include('banco.php');
                                     <div class="col-12 col-md-6">
 
                                         <a href="artigo.php?id=<?php echo $value['id']; ?>">
-                                            <img class="img-fluid rounded" src="<?php echo $value['imagem']; ?>" alt="<?php echo $titulo; ?>">
+                                            <img class="img-fluid rounded" src="<?php echo $value['imagem']; ?>" alt="Capa <?php echo $value['titulo']; ?>">
                                         </a>
                                         <a href="artigo.php?id=<?php echo $value['id']; ?>">
                                             <h2><?php echo $value['titulo']; ?></h2>
