@@ -18,7 +18,7 @@ include('../../templates/header.php');
                             <h6>Super-herói desconstruindo estereótipos e combatendo preconceitos</h6>
                         </div>
                         <div>  
-                            <img  src="img/caraunicornio.jpg"  alt="Cara unicórnio">
+                            <img  src="img/img01.jpg"  alt="Cara unicórnio">
                         </div>
                     </div>
                 </div>

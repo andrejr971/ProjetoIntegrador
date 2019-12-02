@@ -36,9 +36,7 @@ $bancoHome = [
         "caminho" => "autores/wagner/img/boku0.jpg",
         "end" => "autores/wagner/manga.php?manga=boku"
     ]
-
 ];
-
 $bancoDC = [
     'Batman0' => [
         'nome' => 'Batman #78',
@@ -111,7 +109,6 @@ $bancoDC = [
         'personagem' => 'Superman',
         'escritor' => 'Johnson, Dave',
         'key' => 'Superman1'
-
     ],
     'Superman2' =>[
         'nome' => 'Superman Condenado - Volume 2',
@@ -150,7 +147,6 @@ $bancoDC = [
         'key' => 'Outros2'
     ]
 ];
-
 $bancoManga = [
     'boku' => [
         'nome' => 'Boku no Hero Academy',
@@ -258,12 +254,11 @@ $bancoManga = [
         'end' => 'overlord'
     ],
 ];
-
 $bancoAnti = [
     'justiceiro' => [
         'titulo' => 'Justiceiro',
         'p1' => 'Frank Castle era um soldado condecorado que teve sua mulher e seus dois filhos mortos em um tiroteio entre criminosos. Castle então declarou guerra ao mundo do crime. Adotou um uniforme com uma caveira e resolveu eliminar tantos criminosos quanto possível. Isso o colocou em confronto direto com diversos super-heróis que consideram errados os seus métodos e acreditam que é errado tirar a vida mesmo dos criminosos. A guerra de Frank Castle durou anos, até que ele foi morto em uma aventura no meio da década de 1990 e, em seguida, ressucitado durante algum tempo como um morto-vivo. Mas essa fase foi logo abandonada e Castle voltou à sua condição normal, em aventuras cada vez mais violentas onde passou a enfrentar a máfia russa, entre outras. Atualmente, Castle faz também parte do grupo Thunderbolts, liderado pelo Hulk Vermelho.',
-        'p2' => 'Poderes e habilidades: Castle é um ótimo estrategista e conhece tudo sobre armas e seu uso. É violento e implacável contra seus inimigos.',
+        'p2' => 'Poderes e habilidades: Castle é um ótimo estrategista e conhece tudo sobre armas e seu uso. É violento e implacável contra seus inimigos.',
         'img1' => 'img/img03.jpg',
         'img2' => 'img/img09.jpg',
         'tabela' => [
@@ -321,7 +316,7 @@ $bancoAnti = [
     'mulher_gato' => [
         'titulo' => 'Mulher Gato',
         'p1' => 'Sua mãe, Maria Kyle, era dada à putaria e à agressividade, batia nela e na sua irmã mais nova, Magdalena, quando eram pequenas. Não satisfeita pela porrada que dava às duas garotas, suicidou-se. Seu pai, um imprestável desempregado e álcoolico, embebedou-se até à morte, não muito depois da morte de Maria.',
-        'p2' => 'Começou a assaltar lojas de jóias e para se defender da polícia, juntou-se ao Mestre Bruce Lee que a instruiu nas Artes Marciais milenares da China. Um ex-campião de Boxe, chamado Ted Grant, ensinou-se a lutar boxe. Por uns tempos, foi a maior ladra de Gotham City, assaltando tudo quanto era loja. Havia a lenda que a Gata dava o dinheiro pros pobres, mas é tudo mito.</p><p class="text-justify">Órfã desde menina, Selina Kyle passou algum tempo em um orfanato feminino, do qual eventualmente fugiu. Sua inspiração para se tornar a Mulher-Gato teria se originado ao observar o próprio Batman, personagem com o qual acabou tendo um romance, que não durou. Após anos atuando como ladra em Gotham City e no mundo, Selina resolveu atuar como protetora do Eastside, bairro em que viveu e trabalhou como prostituta após fugir do orfanato. Atualmente, a anti-heroína é responsável também pela morte do vilão Máscara Negra, movida por vingança, deixando claro que a personagem não possui os mesmos valores que o Batman e seus demais aliados. Também se uniu as psicopatas Hera Venenosa e Arlequina, e andam trabalhando juntas.',
+        'p2' => 'Começou a assaltar lojas de jóias e para se defender da polícia, juntou-se ao Mestre Bruce Lee que a instruiu nas Artes Marciais milenares da China. Um ex-campião de Boxe, chamado Ted Grant, ensinou-se a lutar boxe. Por uns tempos, foi a maior ladra de Gotham City, assaltando tudo quanto era loja. Havia a lenda que a Gata dava o dinheiro pros pobres, mas é tudo mito.</p><p class="text-justify">Órfã desde menina, Selina Kyle passou algum tempo em um orfanato feminino, do qual eventualmente fugiu. Sua inspiração para se tornar a Mulher-Gato teria se originado ao observar o próprio Batman, personagem com o qual acabou tendo um romance, que não durou. Após anos atuando como ladra em Gotham City e no mundo, Selina resolveu atuar como protetora do Eastside, bairro em que viveu e trabalhou como prostituta após fugir do orfanato. Atualmente, a anti-heroína é responsável também pela morte do vilão Máscara Negra, movida por vingança, deixando claro que a personagem não possui os mesmos valores que o Batman e seus demais aliados. Também se uniu as psicopatas Hera Venenosa e Arlequina, e andam trabalhando juntas.',
         'img1' => 'img/img01.jpg',
         'img2' => 'img/img07.jpg',
         'tabela' => [
@@ -407,7 +402,6 @@ $bancoAnti = [
         ]
     ]
 ];
-
 $bancoNoticia = [
     'new1' => [
         'titulo' => 'Esquadrão Suicida | James Gunn revela foto do roteiro e indica trilha sonora',
@@ -434,5 +428,4 @@ $bancoNoticia = [
         'referencia' => 'https://observatoriodocinema.bol.uol.com.br/artigos/2019/10/descoberto-o-possivel-novo-batman-da-dc-comics'
     ]
 ];
-
 ?>

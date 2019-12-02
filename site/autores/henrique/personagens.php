@@ -1,7 +1,6 @@
 <?php
 include('../../templates/header.php');
 include('../../php/banco.php');
-
 isset($_GET['persona']) ? $escolha = $_GET['persona'] : header('Location: index.php');
 ?>
 

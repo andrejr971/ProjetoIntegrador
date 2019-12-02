@@ -1,7 +1,6 @@
 <?php
 include('../../templates/header.php');
 include('../../php/banco.php');
-
 ?>
 <div role="main" class="container">
     <div class="col-12">
