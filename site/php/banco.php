@@ -4,37 +4,43 @@ $bancoHome = [
         "id" => 0,
         "nome" => "Batman # 78",
         "caminho" => "autores/andre/img/bat0.jpg",
-        "end" => "autores/andre/personagens.php?personagem=Batman0"
+        "end" => "autores/andre/personagens.php?personagem=Batman0",
+        "alt" => "Capa da HQ Batman edição 78"
     ],
     [
         "id" => 1,
         "nome" => "Justiceiro - O Julgamento de Frank Castle",
         "caminho" => "autores/henrique/img/img03.jpg",
-        "end" => "autores/henrique/personagens.php?persona=justiceiro"
+        "end" => "autores/henrique/personagens.php?persona=justiceiro",
+        "alt" => "Capa do Justiceiro"
     ],
     [
         "id" => 2,
         "nome" => "Homem de Ferro - Stark: A Queda",
         "caminho" => "autores/vinicius/img/homem-de-ferro.jpg",
-        "end" => "autores/vinicius/artigo.php?id=0"
+        "end" => "autores/vinicius/artigo.php?id=0",
+        "alt" => "Capa O Retorno de Wolverine #04"
     ],
     [
         "id" => 3,
-        "nome" => "Cara de Unicórnio #1",
-        "caminho" => "autores/carol/img/img01.jpg",
-        "end" => ""
+        "nome" => "Shazam - Com Uma Palavra Mágica",
+        "caminho" => "autores/andre/img/out2.jpg",
+        "end" => "autores/andre/personagens.php?personagem=Outros2",
+        "alt" => "Capa da HQ Shazam - Com Uma Palavra Mágica"
     ],
     [
         "id" => 4,
         "nome" => "Matrix",
-        "caminho" => "autores/caio/img/img07.jpg",
-        "end" => ""
+        "caminho" => "autores/andre/img/super2.jpg",
+        "end" => "autores/andre/personagens.php?personagem=Superman0",
+        "alt" => "Capa da HQ Superman - Evento Leviathan Edição 4 "
     ],
     [
         "id" => 5,
         "nome" => "Boku no Hero Academia",
         "caminho" => "autores/wagner/img/boku0.jpg",
-        "end" => "autores/wagner/manga.php?manga=boku"
+        "end" => "autores/wagner/manga.php?manga=boku",
+        "alt" => "Capa do mangá do Boku no hero"
     ]
 ];
 $bancoDC = [
@@ -258,29 +264,31 @@ $bancoAnti = [
     'justiceiro' => [
         'titulo' => 'Justiceiro',
         'p1' => 'Frank Castle era um soldado condecorado que teve sua mulher e seus dois filhos mortos em um tiroteio entre criminosos. Castle então declarou guerra ao mundo do crime. Adotou um uniforme com uma caveira e resolveu eliminar tantos criminosos quanto possível. Isso o colocou em confronto direto com diversos super-heróis que consideram errados os seus métodos e acreditam que é errado tirar a vida mesmo dos criminosos. A guerra de Frank Castle durou anos, até que ele foi morto em uma aventura no meio da década de 1990 e, em seguida, ressucitado durante algum tempo como um morto-vivo. Mas essa fase foi logo abandonada e Castle voltou à sua condição normal, em aventuras cada vez mais violentas onde passou a enfrentar a máfia russa, entre outras. Atualmente, Castle faz também parte do grupo Thunderbolts, liderado pelo Hulk Vermelho.',
-        'p2' => 'Poderes e habilidades: Castle é um ótimo estrategista e conhece tudo sobre armas e seu uso. É violento e implacável contra seus inimigos.',
+        'p2' => 'Poderes e habilidades: Castle é um ótimo estrategista e conhece tudo sobre armas e seu uso. É violento e implacável contra seus inimigos.',
         'img1' => 'img/img03.jpg',
         'img2' => 'img/img09.jpg',
+        'alt1' > 'Capa do Justiceiro',
+        'alt2' > 'Capa do Justiceiro',
         'tabela' => [
             'linha1' => [
-                'titulo' => 'Complete Colection',
-                'ano' => '15 Set 2016',
-                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+                'titulo' => 'Justiceiro: Ano Um',
+                'ano' => '27 mai 2019',
+                'link' => 'https://www.amazon.com.br/Justiceiro-Ano-Um-Dan-Abnett/dp/8583684065/ref=asc_df_8583684065/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=10524079582871933370&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074228&hvtargid=pla-786135655097&psc=1'
             ],
             'linha2' => [
-                'titulo' => 'Antologia',
-                'ano' => '26 fev 2018',
-                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+                'titulo' => 'Deadpool versus Justiceiro',
+                'ano' => '.. .. 2018',
+                'link' => 'https://www.amazon.com.br/Deadpool-versus-Justiceiro-Lente-P%C3%A9rez/dp/8583683476/ref=asc_df_8583683476/?tag=googleshopp00-20&linkCode=df0&hvadid=379805270144&hvpos=1o4&hvnetw=g&hvrand=10524079582871933370&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074228&hvtargid=pla-840164032684&psc=1'
             ],
             'linha3' => [
-                'titulo' => 'Pecado Original',
-                'ano' => '03 abr 2019',
-                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+                'titulo' => 'Justiceiro - Valley Forge',
+                'ano' => '30 out 2019',
+                'link' => 'https://www.submarino.com.br/produto/489116171?WT.srch=1&acc=d47a04c6f99456bc289220d5d0ff208d&epar=bp_pl_00_go_g35177&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7csYJoOvBM4isg8bcbuqCYa1mmq_2G6wIf3Ypg0rS6EJdaheTzMvmgaArTuEALw_wcB&i=5ce8cd5049f937f62542f4c8&o=5d8e50186c28a3cb50c2a40a&opn=XMLGOOGLE&sellerId=58732058000100&sellerid=58732058000100&wt.srch=1'
             ],
             'linha4' => [
-                'titulo' => 'Deadpool Classic Omnibus',
-                'ano' => '19 jan 2016',
-                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+                'titulo' => 'O Julgamento de Frank Castle',
+                'ano' => '08 jul 2014',
+                'link' => 'https://www.rika.com.br/justiceiro--4---o-julgamento-de-frank-castle15003916/p?idsku=110020&utm_source=google&utm_medium=cpc&utm_campaign=vtex_vtex_full_catalog&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7cfnKyYst249uoB365x_MoAVbk8Bnhgl8pL_LBHncl380FPor6-YBEaAp2ZEALw_wcB'
             ]
         ]
     ],
@@ -290,55 +298,59 @@ $bancoAnti = [
         'p2' => 'Poderes e habilidades: Além de suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente – o que o torna praticamente imortal -; e tem diversas características animais, como sentidos muito aguçados. No Universo Marvel, provavelmente não existe personagem mais perigoso.',
         'img1' => 'img/img04.jpg',
         'img2' => 'img/img10.jpg',
+        'alt1' > 'Capa do wolverine',
+        'alt2' > 'Capa do wolverine',
         'tabela' => [
             'linha1' => [
-                'titulo' => 'Complete Colection',
-                'ano' => '15 Set 2016',
-                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+                'titulo' => 'Origem',
+                'ano' => '30 out 2018',
+                'link' => 'https://loja.panini.com.br/panini/produto/Comics-Marvel-Origem.aspx?Site_txt=GOOGLE&Formato_txt=SHOPPING&Origem_txt=SHOPPING&gclid=Cj0KCQiAw4jvBRCJARIsAHYewPNz7kH3iApPaduiUR4hSomf3K_hxDnd48L8-4HNAPo9kcA159xVLZ8aAthIEALw_wcB'
             ],
             'linha2' => [
                 'titulo' => 'Antologia',
-                'ano' => '26 fev 2018',
-                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+                'ano' => '23 out 2017',
+                'link' => 'https://www.amazon.com.br/Wolverine-Antologia-Len-Wein/dp/8583682518/ref=asc_df_8583682518/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o9&hvnetw=g&hvrand=6659488835915106073&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074228&hvtargid=pla-809688155180&psc=1'
             ],
             'linha3' => [
-                'titulo' => 'Pecado Original',
-                'ano' => '03 abr 2019',
-                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+                'titulo' => 'Old Man Logan',
+                'ano' => '14 fev 2017',
+                'link' => 'https://www.amazon.com.br/Wolverine-Old-Logan-Mark-Millar/dp/1302904639/ref=asc_df_1302904639/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o2&hvnetw=g&hvrand=7866354655418767918&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074228&hvtargid=pla-423024758784&psc=1'
             ],
             'linha4' => [
-                'titulo' => 'Deadpool Classic Omnibus',
+                'titulo' => 'Eu, Wolverine',
                 'ano' => '19 jan 2016',
-                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+                'link' => 'https://www.submarino.com.br/produto/82154006/livro-marvel-eu-wolverine?WT.srch=1&acc=d47a04c6f99456bc289220d5d0ff208d&epar=bp_pl_00_go_g35177&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7dlRayjnvqKWKProJ9aZ4Tl9Hek93kYdsYUuu2Q7eY9EdowqazkwVcaAn57EALw_wcB&i=5a851db5eec3dfb1f8c9e7af&o=5cf6990c6c28a3cb50dd8e30&opn=XMLGOOGLE&sellerId=5580250000161&sellerid=5580250000161&wt.srch=1'
             ]
         ]
     ],
     'mulher_gato' => [
         'titulo' => 'Mulher Gato',
         'p1' => 'Sua mãe, Maria Kyle, era dada à putaria e à agressividade, batia nela e na sua irmã mais nova, Magdalena, quando eram pequenas. Não satisfeita pela porrada que dava às duas garotas, suicidou-se. Seu pai, um imprestável desempregado e álcoolico, embebedou-se até à morte, não muito depois da morte de Maria.',
-        'p2' => 'Começou a assaltar lojas de jóias e para se defender da polícia, juntou-se ao Mestre Bruce Lee que a instruiu nas Artes Marciais milenares da China. Um ex-campião de Boxe, chamado Ted Grant, ensinou-se a lutar boxe. Por uns tempos, foi a maior ladra de Gotham City, assaltando tudo quanto era loja. Havia a lenda que a Gata dava o dinheiro pros pobres, mas é tudo mito.</p><p class="text-justify">Órfã desde menina, Selina Kyle passou algum tempo em um orfanato feminino, do qual eventualmente fugiu. Sua inspiração para se tornar a Mulher-Gato teria se originado ao observar o próprio Batman, personagem com o qual acabou tendo um romance, que não durou. Após anos atuando como ladra em Gotham City e no mundo, Selina resolveu atuar como protetora do Eastside, bairro em que viveu e trabalhou como prostituta após fugir do orfanato. Atualmente, a anti-heroína é responsável também pela morte do vilão Máscara Negra, movida por vingança, deixando claro que a personagem não possui os mesmos valores que o Batman e seus demais aliados. Também se uniu as psicopatas Hera Venenosa e Arlequina, e andam trabalhando juntas.',
+        'p2' => 'Começou a assaltar lojas de jóias e para se defender da polícia, juntou-se ao Mestre Bruce Lee que a instruiu nas Artes Marciais milenares da China. Um ex-campião de Boxe, chamado Ted Grant, ensinou-se a lutar boxe. Por uns tempos, foi a maior ladra de Gotham City, assaltando tudo quanto era loja. Havia a lenda que a Gata dava o dinheiro pros pobres, mas é tudo mito.</p><p class="text-justify">Órfã desde menina, Selina Kyle passou algum tempo em um orfanato feminino, do qual eventualmente fugiu. Sua inspiração para se tornar a Mulher-Gato teria se originado ao observar o próprio Batman, personagem com o qual acabou tendo um romance, que não durou. Após anos atuando como ladra em Gotham City e no mundo, Selina resolveu atuar como protetora do Eastside, bairro em que viveu e trabalhou como prostituta após fugir do orfanato. Atualmente, a anti-heroína é responsável também pela morte do vilão Máscara Negra, movida por vingança, deixando claro que a personagem não possui os mesmos valores que o Batman e seus demais aliados. Também se uniu as psicopatas Hera Venenosa e Arlequina, e andam trabalhando juntas.',
         'img1' => 'img/img01.jpg',
         'img2' => 'img/img07.jpg',
+        'alt1' > 'Capa da Mulher Gato',
+        'alt2' > 'Capa da Mulher Gato',
         'tabela' => [
             'linha1' => [
-                'titulo' => 'Complete Colection',
-                'ano' => '15 Set 2016',
-                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+                'titulo' => 'Mulher Gato',
+                'ano' => '.. .. 1989',
+                'link' => 'https://produto.mercadolivre.com.br/MLB-715377255-mulher-gato-editora-abril-novo-_JM?matt_tool=70505430&matt_word=&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7fhUcDp6cd1kEQtcHXo2hmJ6WnNmCvr4ACJWiqlqGTU50I9zu958UcaAqMVEALw_wcB'
             ],
             'linha2' => [
-                'titulo' => 'Antologia',
-                'ano' => '26 fev 2018',
-                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+                'titulo' => 'Sereias de Gotham (participação)',
+                'ano' => '08 ago 2019',
+                'link' => 'https://www.amazon.com.br/Sereias-Gotham-Parte-Sagas-Definitivas/dp/8583786534/ref=asc_df_8583786534/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=2180503354348103285&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074228&hvtargid=pla-811057548643&psc=1'
             ],
             'linha3' => [
-                'titulo' => 'Pecado Original',
-                'ano' => '03 abr 2019',
-                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+                'titulo' => 'Mulher Gato "Nova série"',
+                'ano' => '03 dez 2018',
+                'link' => 'https://produto.mercadolivre.com.br/MLB-1371171073-mulher-gato-nova-serie-1-_JM?matt_tool=70505430&matt_word&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7cgXImpW7H5SvlSWQEoxlM4VlaSvpOXmf4r73tZ6wlLnZKCzsNW_bwaApySEALw_wcB&quantity=1'
             ],
             'linha4' => [
-                'titulo' => 'Deadpool Classic Omnibus',
-                'ano' => '19 jan 2016',
-                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+                'titulo' => 'Convergência: Mulher-gato',
+                'ano' => '30 jun 2016',
+                'link' => 'https://www.submarino.com.br/produto/1229776034?WT.srch=1&acc=d47a04c6f99456bc289220d5d0ff208d&epar=bp_pl_00_go_g35177&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7d8U4g7OBiR44W64UkQJEbxHv5GCstfvW_EXdhtzQATZJxa06tpA2saAkI3EALw_wcB&i=5d714f7849f937f625238cff&o=5db0b5cc6c28a3cb5019247b&opn=XMLGOOGLE&sellerId=1955844000159&sellerid=1955844000159&wt.srch=1'
             ]
         ]
     ],
@@ -349,26 +361,28 @@ $bancoAnti = [
         'p2' => 'Como uma maldição ou um jogo do destino, Lobo era totalmente diferente de seus compatriotas. Mal nasceu, já arrancou os dedos da parteira e assassinou seus médicos. Incontrolável e indestrutível como todo czarniano, até os 18 anos praticou todo tipo de vandalismo e de assassinatos em Czárnia. A História dos czarnianos e seu planeta se encerrou quando Lobo criou um enxame de microscópicos escorpiões voadores, os quais extinguiram toda a vida no planeta, o que fez com que ele se tornasse o último czarniano vivo.',
         'img1' => 'img/img05.jpg',
         'img2' => 'img/img08.jpg',
+        'alt1' > 'Capa do Lobo',
+        'alt2' > 'Capa do Lobo',
         'tabela' => [
             'linha1' => [
-                'titulo' => 'Complete Colection',
-                'ano' => '15 Set 2016',
-                'link' => 'https://www.bookdepository.com/Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1-Andy-Diggle/9780785185321?redirected=true&utm_medium=Google&utm_campaign=Base1&utm_source=BR&utm_content=Deadpool-By-Daniel-Way-The-Complete-Collection-Volume-1&selectCurrency=BRL&w=AFCXAU9SBGHF3SA80T6U&pdg=pla-317692435101:kwd-317692435101:cmp-2049892730:adg-71254510703:crv-359061300663:pid-9780785185321:dev-c&gclid=Cj0KCQiAn8nuBRCzARIsAJcdIfN7TUiO1WSDNLT2JzvJSYE3VpDW2gw-qc2-2HPRrzsGYNlsebRY6IIaAgaWEALw_wcB'
+                'titulo' => 'Lobo Targets (Ebook)',
+                'ano' => '18 ago 2015',
+                'link' => 'https://www.amazon.com.br/Lobo-2014-2015-Vol-Targets-English-ebook/dp/B011QG87CO/ref=asc_df_B011QG87CO/?tag=googleshopp00-20&linkCode=df0&hvadid=379715983095&hvpos=1o2&hvnetw=g&hvrand=4174264493473055215&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074228&hvtargid=pla-813552762623&psc=1'
             ],
             'linha2' => [
-                'titulo' => 'Antologia',
-                'ano' => '26 fev 2018',
-                'link' => 'https://www.amazon.com.br/Deadpool-Antologia-Rob-Liefield/dp/8583682666/ref=asc_df_8583682666/?tag=googleshopp00-20&linkCode=df0&hvadid=379738409646&hvpos=1o1&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809688155420&psc=1'
+                'titulo' => 'Lobo 1 a 12',
+                'ano' => '.. .. 2016',
+                'link' => 'https://produto.mercadolivre.com.br/MLB-777266160-lobo-1-ao-12-completo-_JM?matt_tool=70505430&matt_word=&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7cTbOKVMkSORfIUuZlP9UCxFhO28AkrAdi0W20_7wi9XAsraRdF5mIaApUREALw_wcB'
             ],
             'linha3' => [
-                'titulo' => 'Pecado Original',
-                'ano' => '03 abr 2019',
-                'link' => 'https://www.amazon.com.br/Deadpool-Pecado-Original-Brian-Posehn/dp/8542617150/ref=asc_df_8542617150/?tag=googleshopp00-20&linkCode=df0&hvadid=379793671652&hvpos=1o3&hvnetw=g&hvrand=8066890356910275062&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-809607135293&psc=1'
+                'titulo' => 'Lanterna Verde O Poder Do Lobo',
+                'ano' => '.. ago 2016',
+                'link' => 'https://produto.mercadolivre.com.br/MLB-1111053608-hq-dc-comics-gibi-book-lanterna-verde-o-poder-do-lobo-47-_JM?matt_tool=70505430&matt_word=&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7cQZdlrVYSrFqvEHNJ_oIIKksv8juIxFQKJTngCJCIJ8iv1DNCDHl0aAlV3EALw_wcB'
             ],
             'linha4' => [
-                'titulo' => 'Deadpool Classic Omnibus',
-                'ano' => '19 jan 2016',
-                'link' => 'https://www.amazon.com.br/Deadpool-Classic-Omnibus-Vol-1/dp/0785196749/ref=asc_df_0785196749/?tag=googleshopp00-20&linkCode=df0&hvadid=379736262876&hvpos=1o20&hvnetw=g&hvrand=1833006944575434973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074151&hvtargid=pla-451398460028&psc=1'
+                'titulo' => 'Lobo N# 1 Dc Comics',
+                'ano' => '.. .. 1996',
+                'link' => 'https://produto.mercadolivre.com.br/MLB-1362068651-lobo-n-1-dc-comics-capa-especial-metal-batman-superman-_JM?matt_tool=70505430&matt_word=&gclid=Cj0KCQiAiZPvBRDZARIsAORkq7fovXFML2JnWqViGW7ZPKGAV2T1ptdIPQltXchQQJyTmSmW-RJ6SX4aAmdoEALw_wcB'
             ]
         ]
     ],
@@ -378,6 +392,8 @@ $bancoAnti = [
         'p2' => 'Wade Wilson (Deadpool) possui o segundo melhor fator de cura da Marvel, sendo o primeiro lugar o Hulk. A capacidade foi posta a prova quando Wade teve seu coração arrancado por Ajax, um assistente do Departamento H onde Wade fora mantido preso, então seu fator de cura entrou em ação e regenerou seu coração por completo, porém seu fator de cura lhe propiciou séria instabilidade mental e amnésia, o que faz com que seu comportamento seja imprevisível. Recentemente ele foi curado de seus problemas mentais, mas continua com o humor sarcástico e comportamento imprevisível.',
         'img1' => 'img/img02.jpg',
         'img2' => 'img/img11.jpg',
+        'alt1' > 'Capa do Deadpool',
+        'alt2' > 'Capa do Deadpool',
         'tabela' => [
             'linha1' => [
                 'titulo' => 'Complete Colection',

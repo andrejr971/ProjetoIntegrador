@@ -26,20 +26,6 @@ include('php/banco.php');
                         </a>
                     </div>
                 </div>
-                <!--<div class="row">
-                    <div class="col">
-                        <a href="#" class="link-slide" data-toggle="modal" data-target="#new2">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="autores/andre/img/new1.jpg" class="d-block w-100 img-bordas" alt="">
-                                </div>
-                                <div class="col">
-                                    <h2 class="titulo2-news">DC divulga nova linha do tempo oficial</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>!-->
                 <div class="w-100">
                     <hr>
                 </div>
@@ -87,7 +73,7 @@ include('php/banco.php');
                                 <a href="<?php echo $bancoHome[$id]['end']; ?>">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <img src="<?php echo $bancoHome[$id]['caminho']; ?>" class="d-block w-100 img-bordas" alt="">
+                                            <img src="<?php echo $bancoHome[$id]['caminho']; ?>" class="d-block w-100 img-bordas" alt="<?php echo $bancoHome[$id]['alt']; ?>">
                                         </div>
                                         <div class="col-sm-6">
                                             <h3 class="titulo3-pop"><?php echo $bancoHome[$id]['nome']; ?></h3>
@@ -114,7 +100,7 @@ include('php/banco.php');
                                 <a href="<?php echo $bancoHome[$contador]['end']; ?>">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <img src="<?php echo $bancoHome[$contador]['caminho']; ?>" class="d-block w-100 img-bordas" alt="">
+                                            <img src="<?php echo $bancoHome[$contador]['caminho']; ?>" class="d-block w-100 img-bordas" alt="<?php echo $bancoHome[$id]['alt']; ?>">
                                         </div>
                                         <div class="col-sm-6">
                                             <h3 class="titulo3-pop"><?php echo $bancoHome[$contador]['nome']; ?></h3>
@@ -150,35 +136,43 @@ include('php/banco.php');
                     </a>
                 </div>
             </div>
+            <div class="w-100 linhaHr">
+                <hr>
+            </div>
             <div class="row m-1">
                 <div class="col">
-                    <a href="#" class="link-slide" data-toggle="modal" data-target="#new8">
+                    <a href="#" class="link-slide" data-toggle="modal" data-target="#new1">
                         <div class="row m-1">
                             <div class="col-12 col-sm-6 col-md-6">
-                                <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
+                                <img src="autores/andre/img/new0.jpg" class="d-block w-100 img-bordas" alt="">
                             </div>
                             <div class="col">
-                                <h3 class="titulo2-news">Brad Barron, personagem da Sergio Bonelli Editore, chega ao Brasil pela Graphite Editora</h3>
+                                <h3 class="titulo2-news">Esquadrão Suicida | James Gunn revela foto do roteiro e indica trilha sonora</h3>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
+            <div class="w-100 linhaHr">
+                <hr>
+            </div>
             <div class="row m-1">
                 <div class="col">
-                <a href="#" class="link-slide" data-toggle="modal" data-target="#new12">
+                    <a href="#" class="link-slide" data-toggle="modal" data-target="#new3">
                         <div class="row m-1">
                             <div class="col-12 col-sm-6 col-md-6">
                                 <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
                             </div>
                             <div class="col">
-                                <h3 class="titulo2-news">Panini inicia a publicação dos Novos Deuses de Jack Kirby.</h3>
+                                <h3 class="titulo2-news">Descoberto o possível novo Batman da DC Comics</h3>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
-
+            <div class="w-100 linhaHr">
+                <hr>
+            </div>
         </aside>
     </main>
 
@@ -192,7 +186,7 @@ include('php/banco.php');
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
                         <a href="autores/wagner/manga.php?manga=kimetsu">
-                            <img src="autores/wagner/img/kimetsu2.jpg" class="d-block w-100 img-bordas" alt="">
+                            <img src="autores/wagner/img/kimetsu2.jpg" class="d-block w-100 img-bordas" alt="Capa do Kimersu no yaiba">
                         </a>
                     </div>
                     <div class="col">
@@ -207,11 +201,11 @@ include('php/banco.php');
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
                         <a href="autores/wagner/manga.php?manga=boku">
-                            <img src="autores/wagner/img/boku0.jpg" class="d-block w-100 img-bordas" alt="">
+                            <img src="autores/wagner/img/boku0.jpg" class="d-block w-100 img-bordas" alt="Capa do Boku no hero">
                         </a>
                     </div>
                     <div class="col">
-                        <a href="autores/wagner/manga.php?manga=boku" data-toggle="modal" data-target="#noticia2">
+                        <a href="autores/wagner/manga.php?manga=boku">
                             <h3 class="titulo2-news">Boku no Hero Academy</h3>
                         </a>
                         <p class="text-justify">A informação surgiu já que foram revelados os títulos dos próximos episódios da quarta temporada da adaptação para série anime Boku no Hero Academia, de Kohei Horikoshi, e com eles veio a informação de que o 4ª episódio não será...</p>
@@ -223,30 +217,30 @@ include('php/banco.php');
             <div class="col-sm-6">
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
-                        <a href="#" data-toggle="modal" data-target="#noticia3">
-                            <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
+                        <a href="autores/henrique/personagens.php?persona=wolverine">
+                            <img src="autores/henrique/img/img04.jpg" class="d-block w-100 img-bordas" alt="Capa do Wolverine">
                         </a>
                     </div>
                     <div class="col">
-                        <a href="#" data-toggle="modal" data-target="#noticia3">
-                            <h3 class="titulo2-news">Dois pinguins e um grande dilema em Filhote de Mandrião</h3>
+                        <a href="autores/henrique/personagens.php?persona=wolverine">
+                            <h3 class="titulo2-news">Wolverine</h3>
                         </a>
-                        <p>Will e Wes são dois pacatos pinguins vivendo sua vida tranquilamente no Polo Sul. Wes adora uma atividade física e não consegue ficar parado,...</p>
+                        <p class="text-justify">foi revelado que ele nasceu no Canadá com poderes mutantes no século 19, com garras de ossos que saltam de suas mãos e um elevado fator de cura que o permite sobreviver aos piores ferimentos e faz com que envelheça lentamente. Batizado de James Howlett...</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="row m-1">
                     <div class="col-md-12 col-lg-6">
-                        <a href="#" data-toggle="modal" data-target="#noticia4">
-                            <img src="autores/andre/img/new2.jpg" class="d-block w-100 img-bordas" alt="">
+                        <a href="autores/henrique/personagens.php?persona=mulher_gato">
+                            <img src="autores/henrique/img/img01.jpg" class="d-block w-100 img-bordas" alt="Capa da Mulher Gato">
                         </a>
                     </div>
                     <div class="col">
-                        <a href="#" data-toggle="modal" data-target="#noticia4">
-                            <h3 class="titulo2-news">Erick Santos Cardoso deixa o comando da área editorial da Panini</h3>
+                        <a href="autores/henrique/personagens.php?persona=mulher_gato">
+                            <h3 class="titulo2-news">Mulher Gato</h3>
                         </a>
-                        <p>Erick Santos Cardoso não é mais o gerente editorial de publicações da Panini Comics, cargo que ocupava desde março de 2017. Ele mesmo comunicou sua...</p>
+                        <p class="text-justify">Sua mãe, Maria Kyle, era dada à putaria e à agressividade, batia nela e na sua irmã mais nova, Magdalena, quando eram pequenas. Não satisfeita pela porrada que dava às duas garotas...</p>
                     </div>
                 </div>
             </div>
