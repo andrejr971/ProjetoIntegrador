@@ -1,6 +1,6 @@
 <?php
-    include ('templates/header.php');
-    //Incluido o menu de navegação
+include('templates/header.php');
+//Incluido o menu de navegação
 ?>
 <main>
     <div class="container">
@@ -37,9 +37,9 @@
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">Caio César Assumpção Rosseto</h4>
                                     <small>Coder</small>
-                                    <p>RA: <strong>2650831913004</strong></p>
+                                    <p>RA: <strong>2650831913033</strong></p>
                                     <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <p>Sou, técnico em informática, estudante de sistemas para internet, meu objetivo é trabalhar com Segurança da Informação.</p>
                                     <h4>Áreas</h4>
                                     <div><a href="autores/caio/index.php">Ficção Científica</a></div>
                                 </div>
@@ -55,9 +55,9 @@
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">Caroline da Silva Nunes</h4>
                                     <small>Coder</small>
-                                    <p>RA: <strong>2650831913004</strong></p>
+                                    <p>RA: <strong>2650831913002</strong></p>
                                     <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <p>Trabalho com desenvolvimento backend, mas nas minhas horas vagas sempre estou com fones de ouvido na frente do computador criando algo no photoshop ou aprendendo coisas novas na programação. Além disso, adoro brincar com os meus cachorros.</p>
                                     <h4>Áreas</h4>
                                     <div><a href="autores/carol/index.php">LGBTQ+</a></div>
                                 </div>
@@ -73,9 +73,9 @@
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">Henrique De Siqueira Leão Soares</h4>
                                     <small>Coder</small>
-                                    <p>RA: <strong>2650831913004</strong></p>
+                                    <p>RA: <strong>2650831913024</strong></p>
                                     <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <p>Oi, meu nome é Henrique, tenho 18 anos. Terminei meu ensino médio em 2018 e logo em seguida ingressei em uma faculdade de Sistemas para Internet , atualmente estudo e faço estágio.</p>
                                     <h4>Áreas</h4>
                                     <div><a href="autores/henrique/index.php">Anti-Heróis</a></div>
                                 </div>
@@ -112,9 +112,9 @@
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">Wagner Alessandro Moraes</h4>
                                     <small>Coder</small>
-                                    <p>RA: <strong>2650831913004</strong></p>
+                                    <p>RA: <strong>2650831913023</strong></p>
                                     <hr>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    <p>Meu nome é Wagner Alessandro de Moraes, tenho 29 anos, moro na cidade de São Roque. Ex militar da Força Aérea onde atuei na área administrativa, tenho conhecimentos na área de radiologia, formação técnica em administração pela Etec São Roque e atualmente cursando Sistemas para Internet pela FATEC São Roque.</p>
                                     <h4>Áreas</h4>
                                     <div><a href="autores/wagner/index.php">Mangá</a></div>
                                     <div><a href="contato.php">Contato</a></div>
@@ -129,6 +129,6 @@
 </main>
 
 <?php
-    include ('templates/footer.php');
-    //Incluindo o rodapé
+include('templates/footer.php');
+//Incluindo o rodapé
 ?>
