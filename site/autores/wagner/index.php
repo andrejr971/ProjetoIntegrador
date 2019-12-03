@@ -5,13 +5,6 @@ include('../../templates/header.php');
 
 <main>
     <div class="container">
-
-        <header class="row">
-            <div class="col-12">
-                <img src="img/banner.jpg" alt="Banner Quadrinhos" class="img-fluid rounded">
-            </div>
-        </header>
-
         <article>
 
             <h1 class="text-center">Mangá</h1>
