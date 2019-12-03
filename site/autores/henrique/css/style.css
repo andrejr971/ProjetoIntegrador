@@ -33,3 +33,9 @@
     font-weight: 700;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
+
+.img-personagens {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
