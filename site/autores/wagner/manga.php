@@ -22,7 +22,8 @@ include('../../php/banco.php');
                 <h1 class="text-center"><?php echo $bancoManga[$manga]['nome'] ?></h1>
 
                 <div class="text-justify">
-                    <p class="mt-2"><?php echo $bancoManga[$manga]['desc'] ?></div>
+                    <p class="mt-2"><?php echo $bancoManga[$manga]['desc'] ?>
+                </div>
 
                 <div class="text-center">
                     <img class="mb-3 img-fluid rounded" src="<?php echo $bancoManga[$manga]['img0'] ?>" alt="imagem de All Might">

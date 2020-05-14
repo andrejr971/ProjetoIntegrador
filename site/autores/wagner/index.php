@@ -5,7 +5,6 @@ include('../../templates/header.php');
 
 <main>
     <div class="container">
-
         <article>
 
             <h1 class="text-center">Mangá</h1>
