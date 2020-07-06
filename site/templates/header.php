@@ -46,7 +46,7 @@ function verificaCss()
   <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
     <div class="container">
       <button class="navbar-toggler box_button" data-toggle="collapse" data-target=".navbar-collapse"
-        onclick="menuIcon(this)">
+        onclick="menuIcon(this)" aria-expanded="false" aria-label="Menu de navegação">
         <span class="bar1"></span>
         <span class="bar2"></span>
         <span class="bar3"></span>
