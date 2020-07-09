@@ -6,7 +6,7 @@ include('templates/header.php');
         <div class="row justify-content-center">
             <form class="col-md-8 m-3" method="POST">
                 <section>
-                    <h2 class="text-center">Contato</h2>
+                    <h1 class="text-center" aria-label="Contato">Contato</h1>
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome...">
