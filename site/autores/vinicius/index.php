@@ -22,7 +22,7 @@ include('banco.php');
                         <article role="main">
                             <div class="row">
                                 <div class="col-md-4 d-flex justify-content-center">
-                                    <img class="img-fluid rounded" src="<?= $value['imagem']; ?>" alt="Capa <?= $value['titulo']; ?>">
+                                    <img class="img-fluid rounded" src="<?= $value['imagem']; ?>" alt="<?= $value['alt']; ?>">
                                 </div>
 
                                 <div class="col-md-5">
