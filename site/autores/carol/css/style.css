@@ -1,8 +1,36 @@
 .titulo-carol-home {
-    font-size: 1.4rem;
+    font-size: 2rem;
+
 }
 
 .titulo-carol-home-dois {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
 }
 
+.artigo-1{
+    font-size: 1.6rem;
+}
+
+.texto-modais{
+    font-size: 2.0rem;
+}
+
+.titulo-modais{
+    font-size: 3.0rem;
+}
+
+.titulo-each-modal{
+    font-size: 2.0rem;
+}
+
+.modais-start{
+    margin-top: 66px;
+}
+
+.modal-body{
+    font-size: 1.5rem;
+}
+
+.modal-title{
+    font-size: 1,5rem;
+}
