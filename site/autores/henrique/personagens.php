@@ -25,7 +25,7 @@ isset($_GET['persona']) ? $escolha = $_GET['persona'] : header('Location: index.
             }
         ?>
     </ul>
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content" id="pills-tabContent" >
         <?php 
         foreach($bancoAnti as $key => $value) {
             if($escolha === $key) {
@@ -33,11 +33,11 @@ isset($_GET['persona']) ? $escolha = $_GET['persona'] : header('Location: index.
         <div class="tab-pane fade show active" id="<?php echo $key; ?>" role="tabpanel" aria-labelledby="pills-<?php echo $key; ?>-tab">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4">
-                    <img class="img-personagens" src="<?php echo $value['img1']; ?>" alt="<?php echo $value['alt1']; ?>">
+                    <img class="img-personagens" role="img" src="<?php echo $value['img1']; ?>" alt="<?php echo $value['alt1']; ?>">
                 </div>
                 <div class="col-12 col-sm-12 col-lg">
                     <h1><?php echo $value['titulo']; ?></h1>
-                    <p class="text-justify"><?php echo $value['p1']; ?></p>
+                    <p class="text-justify" role="main"><?php echo $value['p1']; ?></p>
                     <p class="text-justify"><?php echo $value['p2']; ?></p>
                 </div>
             </div>
@@ -46,7 +46,7 @@ isset($_GET['persona']) ? $escolha = $_GET['persona'] : header('Location: index.
                     <img class="quadrinho img-personagens" src="<?php echo $value['img2']; ?>" alt="<?php echo $value['alt2']; ?>">
                 </div>
                 <div class="col-12 col-sm-12 col-lg">
-                    <table class="table table-sm">
+                    <table class="table table-sm" role="grid">
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col">colocação </th>
@@ -100,7 +100,7 @@ isset($_GET['persona']) ? $escolha = $_GET['persona'] : header('Location: index.
                 </div>
                 <div class="col-12 col-sm-12 col-lg">
                     <table class="table table-sm">
-                        <thead class="thead-dark">
+                        <thead class="thead-dark" role="grid">
                             <tr>
                                 <th scope="col">colocação </th>
                                 <th scope="col">Titulo</th>
