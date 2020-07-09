@@ -47,7 +47,7 @@ include('banco.php');
     <section class="row mb-3 justify-content-center">
         <div class="col-md-4">
             <div class="col-11 border text-center" >
-                <a href="#" data-toggle="modal" data-target="#modalLGBT_um" aria-label="Abrir modal: HQ da marvel LGBT">
+                <a href="#" data-toggle="modal" data-target="#modalLGBT_um" aria-label="link para abrir modal com conteudo sobre HQ marvel lgbt">
                     <img src="img/img02.jpg" alt="Capa HQ da marvel LGBT" class="img-fluid d-block mx-auto">
                     <h2 class="titulo-carol-home text-center">HQ da marvel LGBT</h2>
                 </a>
@@ -57,7 +57,7 @@ include('banco.php');
 
         <div class="col-md-4">
             <div class="col-11 border text-center">
-                <a href="#" data-toggle="modal" data-target="#modalLGBT_dois" aria-label="Abrir modal: Manga Loveless">
+                <a href="#" data-toggle="modal" data-target="#modalLGBT_dois" aria-label="link para abrir modal com conteudo sobre o mangá loveless">
                     <img src="img/img03.jpg" alt="Capa Manga Loveless" class="img-fluid d-block mx-auto">
                     <h2 class="titulo-carol-home text-center">Manga Loveless</h2>
                 </a>
@@ -67,7 +67,7 @@ include('banco.php');
 
         <div class="col-md-4">
             <div class="col-11 border text-center">
-                <a href="#" data-toggle="modal" data-target="#modalLGBT_tres" aria-label="Abrir modal: Manga Loveless">
+                <a href="#" data-toggle="modal" data-target="#modalLGBT_tres" aria-label="link para abrir modal com conteúdo sobre o HQ Justin">
                     <img src="img/img04.jpg" alt="Capa HQ justin" class="img-fluid d-block mx-auto">
                     <h2 class="titulo-carol-home text-center">HQ justin</h2>
                 </a>
