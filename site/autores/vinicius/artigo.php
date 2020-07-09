@@ -28,7 +28,7 @@ include('banco.php');
                             <div class="row">
                                 <div class="col my-2">
                                     <a href="artigo.php?id=<?= $value['id']; ?>">
-                                        <img class="img-fluid" src="<?= $value['imagem']; ?>" alt="Capa <?= $value['titulo']; ?>">
+                                        <img class="img-fluid" src="<?= $value['imagem']; ?>" alt="<?= $value['alt']; ?>">
                                     </a>
                                 </div>
 
