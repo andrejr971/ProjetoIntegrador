@@ -5,13 +5,13 @@ include('../../php/banco.php');
 ?>
 <div role="main" class="container">
     <div class="col-12">
-        <img src="img/img13.jpg" class="d-block w-100 img-bordas" alt="capa com todos os anti herois citados na pagina">
+        <img src="img/img13.jpg" role="img" class="d-block w-100 img-bordas" alt="capa com todos os anti herois citados na pagina">
     </div>
     <main class="m-1">
         <div class="col-12 mb-2">
-            <article>
-                <h1 class="titulo text-center">Anti-herói</h1>
-                <p class="text-justify">O que é um anti-herói?
+            <article role="article">
+                <h1 class="titulo text-center" >Anti-herói</h1>
+                <p class="text-justify" role="main">O que é um anti-herói?
                     Basicamente, o anti-herói é uma espécie de protagonista – personagem central da história – que tem
                     aspectos da moralidade que tradicionalmente associamos aos antagonistas.
 
@@ -46,23 +46,23 @@ include('../../php/banco.php');
         <div class="row rounded text-center">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
                 <div class="zoom">
-                    <a href="personagens.php?persona=justiceiro">
-                        <img src="img/img03.jpg" alt="Frank Castle (Justiceiro) em cima de corpos que ele matou" class="img-responsive">
+                    <a href="personagens.php?persona=justiceiro" role="link">
+                        <img src="img/img03.jpg" role="img" alt="Frank Castle (Justiceiro) em cima de corpos que ele matou" class="img-responsive">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
                 <div class="zoom">
-                    <a href="personagens.php?persona=wolverine">
-                        <img src="img/img04.jpg" alt="wolverine mostrando suas garras" class="img-responsive">
+                    <a href="personagens.php?persona=wolverine" role="link">
+                        <img src="img/img04.jpg" role="img" alt="wolverine mostrando suas garras" class="img-responsive">
                     </a>
                 </div>
             </div>
 
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
                 <div class="zoom">
-                    <a href="personagens.php?persona=mulher_gato">
-                        <img src="img/img01.jpg" alt="mulher gato lutando contra varios policiais" class="img-responsive">
+                    <a href="personagens.php?persona=mulher_gato" role="link">
+                        <img src="img/img01.jpg" role="img" alt="mulher gato lutando contra varios policiais" class="img-responsive">
                     </a>
                 </div>
             </div>

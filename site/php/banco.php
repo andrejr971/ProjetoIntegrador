@@ -267,8 +267,8 @@ $bancoAnti = [
         'p2' => 'Poderes e habilidades: Castle é um ótimo estrategista e conhece tudo sobre armas e seu uso. É violento e implacável contra seus inimigos.',
         'img1' => 'img/img03.jpg',
         'img2' => 'img/img09.jpg',
-        'alt1' > 'Capa do Justiceiro',
-        'alt2' > 'Capa do Justiceiro',
+        'alt1' > 'Frank Castle (Justiceiro) em cima de corpos que ele matou',
+        'alt2' > 'Frank Castle (Justiceiro) sentado no sofá, triste jogando balas para o ar',
         'tabela' => [
             'linha1' => [
                 'titulo' => 'Justiceiro: Ano Um',
@@ -298,8 +298,8 @@ $bancoAnti = [
         'p2' => 'Poderes e habilidades: Além de suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente – o que o torna praticamente imortal -; e tem diversas características animais, como sentidos muito aguçados. No Universo Marvel, provavelmente não existe personagem mais perigoso.',
         'img1' => 'img/img04.jpg',
         'img2' => 'img/img10.jpg',
-        'alt1' > 'Capa do wolverine',
-        'alt2' > 'Capa do wolverine',
+        'alt1' > 'wolverine mostrando suas garras',
+        'alt2' > 'Wolverine com fundo pegando fogo, gritando com suas garras de fora',
         'tabela' => [
             'linha1' => [
                 'titulo' => 'Origem',
@@ -329,8 +329,8 @@ $bancoAnti = [
         'p2' => 'Começou a assaltar lojas de jóias e para se defender da polícia, juntou-se ao Mestre Bruce Lee que a instruiu nas Artes Marciais milenares da China. Um ex-campião de Boxe, chamado Ted Grant, ensinou-se a lutar boxe. Por uns tempos, foi a maior ladra de Gotham City, assaltando tudo quanto era loja. Havia a lenda que a Gata dava o dinheiro pros pobres, mas é tudo mito.</p><p class="text-justify">Órfã desde menina, Selina Kyle passou algum tempo em um orfanato feminino, do qual eventualmente fugiu. Sua inspiração para se tornar a Mulher-Gato teria se originado ao observar o próprio Batman, personagem com o qual acabou tendo um romance, que não durou. Após anos atuando como ladra em Gotham City e no mundo, Selina resolveu atuar como protetora do Eastside, bairro em que viveu e trabalhou como prostituta após fugir do orfanato. Atualmente, a anti-heroína é responsável também pela morte do vilão Máscara Negra, movida por vingança, deixando claro que a personagem não possui os mesmos valores que o Batman e seus demais aliados. Também se uniu as psicopatas Hera Venenosa e Arlequina, e andam trabalhando juntas.',
         'img1' => 'img/img01.jpg',
         'img2' => 'img/img07.jpg',
-        'alt1' > 'Capa da Mulher Gato',
-        'alt2' > 'Capa da Mulher Gato',
+        'alt1' > 'Mulher Gato lutando contra vários policiais',
+        'alt2' > 'Close no rosto da mulher gato com uma luz branca na atrás',
         'tabela' => [
             'linha1' => [
                 'titulo' => 'Mulher Gato',
@@ -361,8 +361,8 @@ $bancoAnti = [
         'p2' => 'Como uma maldição ou um jogo do destino, Lobo era totalmente diferente de seus compatriotas. Mal nasceu, já arrancou os dedos da parteira e assassinou seus médicos. Incontrolável e indestrutível como todo czarniano, até os 18 anos praticou todo tipo de vandalismo e de assassinatos em Czárnia. A História dos czarnianos e seu planeta se encerrou quando Lobo criou um enxame de microscópicos escorpiões voadores, os quais extinguiram toda a vida no planeta, o que fez com que ele se tornasse o último czarniano vivo.',
         'img1' => 'img/img05.jpg',
         'img2' => 'img/img08.jpg',
-        'alt1' > 'Capa do Lobo',
-        'alt2' > 'Capa do Lobo',
+        'alt1' > 'O Lobo olhando com seus olhos vermelhos e mordendo o lábio de baixo',
+        'alt2' > 'Lobo sentado fumando charuto',
         'tabela' => [
             'linha1' => [
                 'titulo' => 'Lobo Targets (Ebook)',
@@ -392,8 +392,8 @@ $bancoAnti = [
         'p2' => 'Wade Wilson (Deadpool) possui o segundo melhor fator de cura da Marvel, sendo o primeiro lugar o Hulk. A capacidade foi posta a prova quando Wade teve seu coração arrancado por Ajax, um assistente do Departamento H onde Wade fora mantido preso, então seu fator de cura entrou em ação e regenerou seu coração por completo, porém seu fator de cura lhe propiciou séria instabilidade mental e amnésia, o que faz com que seu comportamento seja imprevisível. Recentemente ele foi curado de seus problemas mentais, mas continua com o humor sarcástico e comportamento imprevisível.',
         'img1' => 'img/img02.jpg',
         'img2' => 'img/img11.jpg',
-        'alt1' > 'Capa do Deadpool',
-        'alt2' > 'Capa do Deadpool',
+        'alt1' > 'Deadpool pulando e atirando contra vários inimigos',
+        'alt2' > 'Deadpool tirando foto',
         'tabela' => [
             'linha1' => [
                 'titulo' => 'Complete Colection',
